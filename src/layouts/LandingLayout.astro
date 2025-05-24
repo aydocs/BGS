@@ -11,11 +11,10 @@ export interface Props {
 
 const { metadata } = Astro.props;
 ---
-
-<PageLayout metadata={metadata}>
+ <PageLayout metadata={metadata}>
   <Fragment slot="header">
     <slot name="header">
-      <Header
+      <!--<Header
         links={headerData?.links[2] ? [headerData.links[2]] : undefined}
         actions={[
           {
@@ -26,6 +25,7 @@ const { metadata } = Astro.props;
         showToggleTheme
         position="right"
       />
+      -->
     </slot>
   </Fragment>
   <slot />
