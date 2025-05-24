@@ -16,6 +16,7 @@ import RelatedPosts from '~/components/blog/RelatedPosts.astro';
 export const prerender = true;
 
 export const getStaticPaths = (async () => {
+  // Tüm blog yazılarının statik yollarını getirir
   return await getStaticPathsBlogPost();
 }) satisfies GetStaticPaths;
 
@@ -23,16 +24,20 @@ type Props = InferGetStaticPropsType<typeof getStaticPaths>;
 
 const { post } = Astro.props as Props;
 
+// Yazının canonical URL'si oluşturuluyor
 const url = getCanonical(getPermalink(post.permalink, 'post'));
+
+// Yazının ana görseli bulunuyor (varsa)
 const image = (await findImage(post.image)) as ImageMetadata | string | undefined;
 
+// Meta veri nesnesi hazırlanıyor, OpenGraph bilgileri dahil
 const metadata = merge(
   {
-    title: post.title,
-    description: post.excerpt,
+    title: post.title, // Yazı başlığı
+    description: post.excerpt, // Yazı özeti
     robots: {
-      index: blogPostRobots?.index,
-      follow: blogPostRobots?.follow,
+      index: blogPostRobots?.index, // Arama motoru indeksleme ayarı
+      follow: blogPostRobots?.follow, // Bağlantıları takip etme ayarı
     },
     openGraph: {
       type: 'article',
@@ -46,9 +51,12 @@ const metadata = merge(
 ---
 
 <Layout metadata={metadata}>
+  {/* Yazı içeriği ve görseli */}
   <SinglePost post={{ ...post, image: image }} url={url}>
     {post.Content ? <post.Content /> : <Fragment set:html={post.content || ''} />}
   </SinglePost>
+  {/* Blog ana sayfasına dönüş bağlantısı */}
   <ToBlogLink />
+  {/* İlgili yazılar bileşeni */}
   <RelatedPosts post={post} />
 </Layout>

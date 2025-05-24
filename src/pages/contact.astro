@@ -5,73 +5,73 @@ import ContactUs from '~/components/widgets/Contact.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 
 const metadata = {
-  title: 'Contact',
+  title: 'İletişim',
 };
 ---
 
 <Layout metadata={metadata}>
   <!-- HeroText Widget ******************* -->
 
-  <HeroText tagline="Contact" title="Let's Connect!" />
+  <HeroText tagline="İletişim" title="Hadi Bağlanalım!" />
 
   <ContactUs
     id="form"
-    title="Drop us a message today!"
-    subtitle="For quicker answers, explore our FAQs section. You may find the solution you're looking  for right there! If not, our support team is delighted to help you."
+    title="Bugün bize bir mesaj bırakın!"
+    subtitle="Daha hızlı yanıtlar için SSS bölümümüzü inceleyin. Aradığınız çözümü orada bulabilirsiniz! Bulamazsanız, destek ekibimiz size yardımcı olmaktan mutluluk duyacaktır."
     inputs={[
       {
         type: 'text',
         name: 'name',
-        label: 'Name',
+        label: 'Adınız',
       },
       {
         type: 'email',
         name: 'email',
-        label: 'Email',
+        label: 'E-posta',
       },
     ]}
     textarea={{
-      label: 'Message',
+      label: 'Mesajınız',
     }}
     disclaimer={{
       label:
-        'By submitting this contact form, you acknowledge and agree to the collection of your personal information.',
+        'Bu iletişim formunu göndererek kişisel bilgilerinizin toplanmasını kabul etmiş olursunuz.',
     }}
-    description="Our support team typically responds within 24 business hours."
+    description="Destek ekibimiz genellikle 24 iş saati içinde yanıt verir."
   />
 
   <!-- Features2 Widget ************** -->
 
   <Features2
-    title="We are here to help!"
+    title="Yardımcı olmaya hazırız!"
     items={[
       {
-        title: 'General support',
-        description: `Chat with us for inquiries related to account management, website navigation, payment issues, accessing purchased templates or general questions about the website's functionality.`,
+        title: 'Genel destek',
+        description: `Hesap yönetimi, site kullanımı, ödeme sorunları, satın alınan şablonlara erişim veya web sitesi işlevselliği ile ilgili genel sorularınız için bizimle sohbet edin.`,
       },
       {
-        title: 'Contact sales',
+        title: 'Satış ile iletişim',
         description:
-          'Chat with us for questions about purchases, customization options, licensing for commercial use, inquiries about specific template, etc.',
+          'Satın alma, özelleştirme seçenekleri, ticari kullanım lisansı, belirli şablonlar hakkında sorular için bizimle iletişime geçin.',
       },
       {
-        title: 'Technical support',
+        title: 'Teknik destek',
         description:
-          'Chat with us when facing issues like template installation, problems editing difficulties, compatibility issues with software or download errors, or other technical challenges related to using the templates.',
+          'Şablon kurulumu, düzenleme zorlukları, yazılımla uyumluluk sorunları, indirme hataları veya şablon kullanımıyla ilgili diğer teknik problemler için destek alın.',
       },
       {
-        title: 'Phone',
+        title: 'Telefon',
         description: '+1 (234) 567-890',
         icon: 'tabler:headset',
       },
       {
-        title: 'Email',
+        title: 'E-posta',
         description: 'contact@support.com',
         icon: 'tabler:mail',
       },
       {
-        title: 'Location',
-        description: '1234 Lorem Ipsum St, 12345, Miami, EEUU',
+        title: 'Adres',
+        description: '1234 Lorem Ipsum Cad., 12345, Miami, ABD',
         icon: 'tabler:map-pin',
       },
     ]}

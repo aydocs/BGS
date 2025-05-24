@@ -8,7 +8,7 @@ import Features3 from '~/components/widgets/Features3.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
-  title: 'Pricing',
+  title: 'Fiyatlandırma',
 };
 ---
 
@@ -16,94 +16,94 @@ const metadata = {
   <!-- HeroText Widget ******************* -->
 
   <HeroText
-    tagline="Pricing"
-    title="Stellar Pricing for Every Journey"
-    subtitle="Choose the perfect plan that aligns with your cosmic goals."
+    tagline="Fiyatlandırma"
+    title="Her Yolculuğa Uygun Yıldız Gibi Fiyatlar"
+    subtitle="Kozmik hedeflerinize uyacak mükemmel planı seçin."
   />
 
   <!-- Pricing Widget ******************* -->
 
   <Prices
-    title="Our prices"
-    subtitle="Only pay for what you need"
+    title="Fiyatlarımız"
+    subtitle="Sadece ihtiyacınız olan için ödeme yapın"
     prices={[
       {
-        title: 'basic',
-        subtitle: 'Optimal choice for personal use',
+        title: 'temel',
+        subtitle: 'Bireysel kullanım için ideal seçim',
         price: 29,
-        period: 'per month',
+        period: 'aylık',
         items: [
           {
-            description: 'Etiam in libero, et volutpat',
+            description: 'Serbest ve esnek kullanım',
           },
           {
-            description: 'Aenean ac nunc dolor tristique',
+            description: 'Kolay ve hızlı erişim',
           },
           {
-            description: 'Cras scelerisque accumsan lib',
+            description: 'Güvenilir performans',
           },
           {
-            description: 'In hac habitasse',
+            description: 'Kullanıcı dostu arayüz',
           },
         ],
         callToAction: {
           target: '_blank',
-          text: 'Get started',
+          text: 'Başlayın',
           href: '#',
         },
       },
       {
-        title: 'standard',
-        subtitle: 'Optimal choice for small teams',
+        title: 'standart',
+        subtitle: 'Küçük ekipler için en uygun seçenek',
         price: 69,
-        period: 'Per Month',
+        period: 'Aylık',
         items: [
           {
-            description: 'Proin vel laoreet',
+            description: 'Gelişmiş özellikler',
           },
           {
-            description: 'Ut efficitur habitasse egestas',
+            description: 'Takım içi iş birliği',
           },
           {
-            description: 'Volutpat hac curabitur',
+            description: 'Öncelikli destek',
           },
           {
-            description: 'Pellentesque blandit ut nibh',
+            description: 'Daha fazla depolama alanı',
           },
           {
-            description: 'Donec fringilla sem',
+            description: 'Esnek planlama araçları',
           },
         ],
         callToAction: {
           target: '_blank',
-          text: 'Get started',
+          text: 'Başlayın',
           href: '#',
         },
         hasRibbon: true,
-        ribbonTitle: 'popular',
+        ribbonTitle: 'popüler',
       },
       {
         title: 'premium',
-        subtitle: 'Optimal choice for companies',
+        subtitle: 'Şirketler için özel çözüm',
         price: 199,
-        period: 'Per Month',
+        period: 'Aylık',
         items: [
           {
-            description: 'Curabitur suscipit risus',
+            description: 'Özel danışmanlık',
           },
           {
-            description: 'Aliquam habitasse malesuada',
+            description: 'Yüksek öncelikli destek',
           },
           {
-            description: 'Suspendisse sit amet blandit',
+            description: 'Özelleştirilebilir raporlar',
           },
           {
-            description: 'Suspendisse auctor blandit dui',
+            description: 'Kurumsal entegrasyonlar',
           },
         ],
         callToAction: {
           target: '_blank',
-          text: 'Get started',
+          text: 'Başlayın',
           href: '#',
         },
       },
@@ -113,38 +113,38 @@ const metadata = {
   <!-- Features3 Widget ************** -->
 
   <Features3
-    title="Price-related features"
-    subtitle="Discover the advantages of choosing our plans"
+    title="Fiyatlandırma ile ilgili özellikler"
+    subtitle="Planlarımızı seçmenin avantajlarını keşfedin"
     columns={2}
     items={[
       {
-        title: 'Tiered Pricing Plans',
-        description: 'Choose from a range of pricing plans designed to accommodate different budgets and requirements.',
+        title: 'Katmanlı Fiyatlandırma Planları',
+        description: 'Farklı bütçe ve ihtiyaçlara uygun çeşitli fiyatlandırma planları arasından seçim yapabilirsiniz.',
         icon: 'tabler:stairs',
       },
       {
-        title: 'Transparent Pricing',
-        description: 'Clearly displayed pricing details for each plan, with no hidden costs or unexpected charges.',
+        title: 'Şeffaf Fiyatlandırma',
+        description: 'Her plan için net fiyat bilgileri, gizli maliyet veya sürpriz ücret yoktur.',
         icon: 'tabler:flip-vertical',
       },
       {
-        title: 'Secure Payment Methods',
-        description: 'Secure payment gateways to protect your financial information during transactions.',
+        title: 'Güvenli Ödeme Yöntemleri',
+        description: 'İşlemleriniz sırasında finansal bilgilerinizi koruyan güvenli ödeme sistemleri.',
         icon: 'tabler:shield-lock',
       },
       {
-        title: 'Instant Access',
-        description: `Immediate access to your chosen plan's features and templates upon subscription.`,
+        title: 'Anında Erişim',
+        description: `Abonelik sonrası seçtiğiniz planın özelliklerine ve şablonlara hemen erişim imkanı.`,
         icon: 'tabler:accessible',
       },
       {
-        title: 'Upgrade Value',
-        description: 'Upgrade to higher-tier plans to unlock more features and benefits for an enhanced experience.',
+        title: 'Yükseltme Avantajları',
+        description: 'Daha üst planlara geçiş yaparak daha fazla özellik ve avantajdan yararlanın.',
         icon: 'tabler:chevrons-up',
       },
       {
-        title: '24H support',
-        description: 'Questions answered via live chat, email or phone, every calendar day.',
+        title: '7/24 Destek',
+        description: 'Sorularınız canlı sohbet, e-posta veya telefon ile her gün cevaplanır.',
         icon: 'tabler:headset',
       },
     ]}
@@ -154,76 +154,71 @@ const metadata = {
   <!-- Steps Widget ****************** -->
 
   <Steps
-    title="A guided journey from plans to creativity"
-    tagline="simplified process"
+    title="Planlardan yaratıcılığa rehberli yolculuk"
+    tagline="basitleştirilmiş süreç"
     isReversed={true}
     items={[
       {
-        title: 'Explore plans',
+        title: 'Planları keşfedin',
         icon: 'tabler:number-1',
       },
       {
-        title: 'Select a plan',
+        title: 'Bir plan seçin',
         icon: 'tabler:number-2',
       },
       {
-        title: 'Sign Up / Log In',
+        title: 'Kayıt olun / Giriş yapın',
         icon: 'tabler:number-3',
       },
       {
-        title: 'Review order',
+        title: 'Siparişi gözden geçirin',
         icon: 'tabler:number-4',
       },
       {
-        title: 'Enter payment details',
+        title: 'Ödeme bilgilerini girin',
         icon: 'tabler:number-5',
       },
       {
-        title: 'Confirmation',
+        title: 'Onay',
         icon: 'tabler:number-6',
       },
       {
-        title: 'Download and start using the template(s)',
+        title: 'Şablonu indirip kullanmaya başlayın',
         icon: 'tabler:number-7',
       },
     ]}
     image={{
       src: 'https://images.unsplash.com/photo-1536816579748-4ecb3f03d72a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',
-      alt: 'Steps image',
+      alt: 'Adım görseli',
     }}
   />
 
   <!-- FAQs Widget ******************* -->
 
   <FAQs
-    title="Pricing FAQs"
-    subtitle="Choosing the right plan is important, and we're here to answer your questions. If you have queries about our pricing options, you're in the right place."
+    title="Fiyatlandırma SSS"
+    subtitle="Doğru planı seçmek önemli, sorularınızı yanıtlamak için buradayız. Fiyatlandırma seçeneklerimiz hakkında merak ettikleriniz için doğru yerdesiniz."
     columns={1}
     items={[
       {
-        title: 'Do the plans come with customer support?',
+        title: 'Planlarla müşteri desteği geliyor mu?',
         description:
-          'Absolutely, all plans include access to our dedicated customer support to assist you with any queries or concerns.',
+          'Kesinlikle, tüm planlarda size özel müşteri desteğine erişim sağlanır, her türlü soru ve sorununuza yardımcı olunur.',
       },
       {
-        title: 'Is there a trial period for the different plans?',
+        title: 'Planlar için deneme süresi var mı?',
         description:
-          "Unfortunately, we don't offer trial periods for the plans. However, you can check out our demo section to preview the quality of our templates.",
+          'Maalesef planlar için deneme süresi sunmuyoruz. Ancak şablonlarımızın kalitesini önizleyebileceğiniz demo bölümümüzü inceleyebilirsiniz.',
       },
       {
-        title: 'Can I switch between plans?',
+        title: 'Planlar arasında geçiş yapabilir miyim?',
         description:
-          'Certainly! You can easily upgrade or downgrade your plan, at any time, to find the one that best suits your evolving requirements.',
+          'Elbette! İhtiyaçlarınıza göre planınızı istediğiniz zaman yükseltebilir veya düşürebilirsiniz.',
       },
       {
-        title: 'What payment methods do you accept?',
+        title: 'Fiyat dışında gizli ücret var mı?',
         description:
-          'We accept major credit cards and online payment methods to ensure a convenient and secure transaction process.',
-      },
-      {
-        title: 'Are there any hidden fees beyond the displayed cost?',
-        description:
-          'No, the subscription cost covers all the features and templates listed under each plan. There are no hidden fees or extra charges.',
+          'Hayır, abonelik bedeli her plan için listelenen tüm özellik ve şablonları kapsar. Gizli ücret veya ek maliyet yoktur.',
       },
     ]}
   />
@@ -231,12 +226,12 @@ const metadata = {
   <!-- CallToAction Widget *********** -->
 
   <CallToAction
-    title="Ready to boost your projects?"
-    subtitle="Join our community of satisfied customers who have transformed their work with our templates."
+    title="Projelerinizi güçlendirmeye hazır mısınız?"
+    subtitle="Şablonlarımızla işlerini dönüştüren memnun müşteriler topluluğumuza katılın."
     actions={[
       {
         variant: 'primary',
-        text: 'Get started now',
+        text: 'Hemen başlayın',
         href: '/',
       },
     ]}
