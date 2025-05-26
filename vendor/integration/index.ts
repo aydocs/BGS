@@ -8,7 +8,7 @@ import loadConfig from './utils/loadConfig';
 export default ({ config: _themeConfig = 'src/config.yaml' } = {}): AstroIntegration => {
   let cfg: AstroConfig;
   return {
-    name: 'astrowind-integration',
+    name: 'emadocs-integration',
 
     hooks: {
       'astro:config:setup': async ({
@@ -20,9 +20,9 @@ export default ({ config: _themeConfig = 'src/config.yaml' } = {}): AstroIntegra
         updateConfig,
         addWatchFile,
       }) => {
-        const buildLogger = logger.fork('astrowind');
+        const buildLogger = logger.fork('emadocs');
 
-        const virtualModuleId = 'astrowind:config';
+        const virtualModuleId = 'emadocs:config';
         const resolvedVirtualModuleId = '\0' + virtualModuleId;
 
         const rawJsonConfig = (await loadConfig(_themeConfig)) as Config;
@@ -37,7 +37,7 @@ export default ({ config: _themeConfig = 'src/config.yaml' } = {}): AstroIntegra
           vite: {
             plugins: [
               {
-                name: 'vite-plugin-astrowind-config',
+                name: 'vite-plugin-emadocs-config',
                 resolveId(id) {
                   if (id === virtualModuleId) {
                     return resolvedVirtualModuleId;
@@ -73,7 +73,7 @@ export default ({ config: _themeConfig = 'src/config.yaml' } = {}): AstroIntegra
       },
 
       'astro:build:done': async ({ logger }) => {
-        const buildLogger = logger.fork('astrowind');
+        const buildLogger = logger.fork('emadocs');
         buildLogger.info('Updating `robots.txt` with `sitemap-index.xml` ...');
 
         try {
