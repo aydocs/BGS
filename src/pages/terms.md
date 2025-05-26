@@ -3,120 +3,66 @@ title: 'Kullanım Şartları'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
-_Son güncelleme_: 06 Ocak 2023
+_Son güncelleme: 26 Mayıs 2025_
 
-Lütfen Hizmetimizi kullanmadan önce bu kullanım şartlarını dikkatlice okuyunuz.
+Bu Kullanım Şartları, Emadocs Yazılım Ajansı tarafından sunulan web sitesi ve hizmetlerin kullanım koşullarını açıklar. Web sitemizi veya hizmetlerimizi kullanarak bu şartları kabul etmiş sayılırsınız.
 
-## Yorumlama ve Tanımlar
+---
 
-### Yorumlama
+## Hizmet Tanımı
 
-Baş harfi büyük yazılan kelimelerin, aşağıda belirtilen koşullar kapsamında tanımlanmış anlamları vardır. Bu tanımlar, kelimeler tekil ya da çoğul olarak kullanılsa da aynı anlama gelir.
+Emadocs; özel yazılım geliştirme, web tasarımı, kullanıcı arayüzü/deneyimi tasarımı ve dijital dönüşüm danışmanlığı hizmetleri sunar. Tüm hizmetler, talep üzerine özelleştirilir ve sözleşme esasına dayanır.
 
-### Tanımlar
+---
 
-Bu Kullanım Şartları kapsamında:
+## Kullanım Koşulları
 
-- **Bağlı Kuruluş (Affiliate)**, bir tarafı kontrol eden, onun tarafından kontrol edilen veya ortak kontrol altında olan bir varlık anlamına gelir. Burada "kontrol" yöneticilerin seçimi için oy hakkı veren hisselerin, sermaye paylarının veya diğer menkul kıymetlerin %50 veya daha fazlasının sahipliğini ifade eder.
+Web sitemizi ve sunduğumuz hizmetleri yalnızca yasal amaçlarla kullanabilirsiniz.
 
-- **Ülke**, Kaliforniya, Amerika Birleşik Devletleri'ni ifade eder.
+Kullanıcı olarak:
 
-- **Şirket** (bu sözleşmede "Şirket", "Biz", "Bize" veya "Bizim" olarak anılabilir), EmaDocs LLC, 1 Cupertino, CA 95014 adresindeki kuruluşu ifade eder.
+- Doğru ve eksiksiz bilgi vermeyi,  
+- Telif haklarına ve fikri mülkiyet haklarına saygı göstermeyi,  
+- Hizmetleri kötüye kullanmamayı kabul etmiş sayılırsınız.
 
-- **Cihaz**, bilgisayar, cep telefonu veya dijital tablet gibi Hizmete erişebilen her türlü cihaz anlamına gelir.
+Emadocs, kötü niyetli veya yetkisiz kullanımlarda erişimi engelleme veya hizmeti sonlandırma hakkını saklı tutar.
 
-- **Hizmet**, Web Sitesi anlamına gelir.
+---
 
-- **Kullanım Şartları**, ("Şartlar" olarak da anılır) Hizmetin kullanımı ile ilgili olarak siz (Kullanıcı) ile Şirket arasında tam anlaşmayı oluşturan bu şartlardır. Bu kullanım şartları bir demo niteliğindedir.
+## Fikri Mülkiyet
 
-- **Üçüncü Taraf Sosyal Medya Hizmeti**, Hizmet tarafından gösterilebilen, dahil edilen veya sunulan üçüncü taraf tarafından sağlanan hizmetler veya içerikler (veri, bilgi, ürün veya hizmetler dahil) anlamına gelir.
+Bu web sitesinde yer alan tüm içerikler (yazılım, tasarım, metin, grafik, logo vb.) Emadocs’a aittir veya lisanslı olarak kullanılmaktadır. İzinsiz kopyalanamaz, çoğaltılamaz, dağıtılamaz.
 
-- **Web Sitesi**, [https://astrowind.vercel.app](https://astrowind.vercel.app) adresinde erişilebilen EmaDocs'u ifade eder.
-
-- **Siz**, Hizmete erişen veya kullanan gerçek kişi ya da bu kişiyi temsil eden şirket veya diğer tüzel kişi anlamına gelir.
-
-## Kabul
-
-Bu kullanım şartları, Hizmetin kullanımıyla ilgili olarak Siz ve Şirket arasında geçerli olan hüküm ve koşulları belirler. Bu Şartlar, tüm kullanıcıların Hizmetin kullanımıyla ilgili hak ve yükümlülüklerini tanımlar.
-
-Hizmete erişiminiz ve kullanmanız, bu Şartları kabul ettiğiniz ve uyduğunuz koşuluna bağlıdır. Bu Şartlar, Hizmete erişen ve kullanan tüm ziyaretçiler, kullanıcılar ve diğer kişiler için geçerlidir.
-
-Hizmete erişerek veya kullanarak bu Şartlara bağlı kalmayı kabul etmiş olursunuz. Bu Şartların herhangi bir kısmına katılmıyorsanız Hizmete erişmemeniz gerekmektedir.
-
-Şirket, 18 yaşından küçüklerin Hizmeti kullanmasına izin vermez. Siz 18 yaşından büyüksünüz.
-
-Ayrıca Hizmete erişim ve kullanımınız, Şirketin Gizlilik Politikası’nı kabul etmeniz ve uymanıza bağlıdır. Gizlilik Politikamız, kişisel bilgilerinizin toplanması, kullanımı ve ifşasıyla ilgili politikalarımızı ve prosedürlerimizi açıklar. Lütfen Hizmeti kullanmadan önce Gizlilik Politikamızı dikkatlice okuyunuz.
-
-## Diğer Web Sitelerine Bağlantılar
-
-Hizmetimiz, Şirket tarafından sahip olunmayan veya kontrol edilmeyen üçüncü taraf web sitelerine veya hizmetlere bağlantılar içerebilir.
-
-Şirket, bu tür üçüncü taraf sitelerin içerik, gizlilik politikaları veya uygulamaları üzerinde herhangi bir kontrol sahibi değildir ve sorumluluk kabul etmez. Şirket, bu tür sitelerin kullanımı veya güvenilmesiyle ortaya çıkabilecek herhangi bir zarar veya kayıptan doğrudan veya dolaylı olarak sorumlu tutulamaz.
-
-Üçüncü taraf web siteleri veya hizmetlerin kullanım şartları ve gizlilik politikalarını dikkatle okumanızı öneririz.
-
-## Fesih
-
-Şartları ihlal etmeniz durumunda, önceden bildirimde bulunmaksızın ve herhangi bir sorumluluk olmaksızın erişiminiz derhal sonlandırılabilir veya askıya alınabilir.
-
-Fesih halinde Hizmeti kullanma hakkınız derhal sona erer.
+---
 
 ## Sorumluluğun Sınırlandırılması
 
-Maruz kalabileceğiniz zararlar ne olursa olsun, Şirket ve tedarikçilerinin bu Şartlar kapsamındaki toplam sorumluluğu, Hizmet aracılığıyla tarafınızca fiilen ödenen tutarla veya eğer hiçbir şey satın almadıysanız 100 ABD doları ile sınırlıdır.
+Emadocs, sunduğu hizmetlerde doğruluk ve süreklilik sağlamayı amaçlar. Ancak, teknik nedenlerden kaynaklı kesintiler veya üçüncü taraf hizmet sağlayıcılarından doğabilecek sorunlardan sorumlu tutulamaz.
 
-Yürürlükteki yasa tarafından izin verilen en geniş ölçüde, Şirket veya tedarikçileri, kar kaybı, veri kaybı, iş kesintisi, kişisel yaralanma, gizlilik ihlali veya Hizmetin kullanımı ya da kullanılamamasıyla bağlantılı herhangi bir özel, dolaylı, arızi veya sonuçsal zararlardan sorumlu tutulamaz.
+Üçüncü taraf bağlantılar üzerinden yönlendirilen sitelerdeki içerik ve güvenlik, ilgili sitelerin sorumluluğundadır.
 
-Bazı eyaletler, dolaylı zararlar için sorumluluk sınırlamasını veya örtülü garantilerin reddini kabul etmeyebilir; böyle durumlarda tarafların sorumluluğu yasal sınırlar içinde olacaktır.
+---
 
-## "OLDUĞU GİBİ" VE "KULLANILABİLDİĞİ GİBİ" FERAGATI
+## Değişiklik Hakkı
 
-Hizmet, tüm kusurlar ve hatalarla birlikte "OLDUĞU GİBİ" ve "KULLANILABİLDİĞİ GİBİ" sunulmaktadır ve herhangi bir garanti verilmemektedir.
+Emadocs, bu Kullanım Şartları’nı dilediği zaman güncelleme hakkına sahiptir. Değişiklikler, bu sayfada yayımlandığı andan itibaren geçerlidir. Önemli değişikliklerde kullanıcılar ayrıca bilgilendirilir.
 
-Şirket ve bağlı kuruluşları, hizmetin tüm açık, örtülü, kanuni veya diğer garantilerini açıkça reddeder; hizmetin gereksinimlerinizi karşılayacağı, kesintisiz çalışacağı veya hatasız olacağı garantisi verilmez.
+---
 
-Ayrıca, hizmetin virüslerden, kötü amaçlı yazılımlardan veya diğer zararlı bileşenlerden arınmış olduğu garanti edilmez.
+## Geçerli Hukuk ve Yetki
 
-Bazı yargı bölgeleri bu tür garantilerin reddini veya sınırlamaları kabul etmeyebilir; bu durumlarda bu kısıtlamalar yasaların izin verdiği ölçüde uygulanacaktır.
+Bu şartlar Türkiye Cumhuriyeti yasalarına tabidir. Taraflar, doğabilecek uyuşmazlıklarda Sakarya Mahkemeleri ve İcra Daireleri’nin yetkili olduğunu kabul eder.
 
-## Geçerli Hukuk
+---
 
-Bu Şartlar ve Hizmet kullanımı, Ülke yasalarına tabi olacaktır; ancak çatışma kuralları hariçtir. Hizmet kullanımı ayrıca yerel, eyalet, ulusal veya uluslararası diğer yasalara da tabi olabilir.
+## İletişim
 
-## Uyuşmazlıkların Çözümü
+Bu şartlar veya hizmetlerimiz hakkında sorularınız varsa bizimle iletişime geçebilirsiniz:
 
-Hizmetle ilgili herhangi bir endişeniz veya uyuşmazlığınız varsa, önce Şirket ile doğrudan iletişime geçip sorunu dostane olarak çözmeye çalışmayı kabul edersiniz.
+**Emadocs Yazılım Ajansı**  
+E-posta: [info@emadocs.com](mailto:info@emadocs.com)  
+Web: [www.emadocs.com](https://www.emadocs.com)
 
-## Avrupa Birliği (AB) Kullanıcıları İçin
+---
 
-AB tüketicisiyseniz, ikamet ettiğiniz ülkenin zorunlu yasal hükümlerinden yararlanma hakkınız vardır.
-
-## Amerika Birleşik Devletleri Yasal Uyumu
-
-Siz, (i) ABD hükümetinin ambargosuna tabi olmayan bir ülkede bulunduğunuzu, ya da terörizmi destekleyen ülke olarak tanımlanmamış olduğunuzu, (ii) ABD hükümeti tarafından yasaklanmış veya kısıtlanmış taraflar listesinde olmadığınızı beyan ve garanti edersiniz.
-
-## Ayrılabilirlik ve Feragat
-
-### Ayrılabilirlik
-
-Bu Şartların herhangi bir hükmü geçersiz veya uygulanamaz bulunursa, bu hüküm mümkün olan en geniş şekilde değiştirilerek yorumlanacak ve diğer hükümler tam olarak geçerli olmaya devam edecektir.
-
-### Feragat
-
-Burada açıkça belirtilmediği sürece, hakların kullanılmaması veya bir yükümlülüğün talep edilmemesi, gelecekte o hakkın kullanılamayacağı anlamına gelmez.
-
-## Çeviri Yorumu
-
-Bu Şartlar çevrilmiş olabilir. Anlaşmazlık durumunda İngilizce orijinal metin esas alınacaktır.
-
-## Bu Şartlarda Değişiklikler
-
-Şirket, tek taraflı olarak bu Şartları herhangi bir zamanda değiştirme hakkını saklı tutar. Önemli değişiklikler için yeni şartların yürürlüğe girmesinden en az 30 gün önce makul şekilde bildirim yapılacaktır.
-
-Bu değişikliklerden sonra Hizmeti kullanmaya devam etmeniz, yeni şartları kabul ettiğiniz anlamına gelir. Kabul etmiyorsanız, Hizmeti kullanmayı bırakınız.
-
-## Bize Ulaşın
-
-Bu Kullanım Şartları ile ilgili sorularınız varsa, bizimle iletişime geçebilirsiniz:
-
-- E-posta: somecoolemail@domain.com
+© 2025 Emadocs. Tüm hakları saklıdır.

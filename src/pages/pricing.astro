@@ -23,92 +23,79 @@ const metadata = {
 
   <!-- Pricing Widget ******************* -->
 
-  <Prices
-    title="Fiyatlarımız"
-    subtitle="Sadece ihtiyacınız olan için ödeme yapın"
-    prices={[
-      {
-        title: 'temel',
-        subtitle: 'Bireysel kullanım için ideal seçim',
-        price: 7500,
-        period: 'aylık',
-        items: [
-          {
-            description: 'Serbest ve esnek kullanım',
-          },
-          {
-            description: 'Kolay ve hızlı erişim',
-          },
-          {
-            description: 'Güvenilir performans',
-          },
-          {
-            description: 'Kullanıcı dostu arayüz',
-          },
-        ],
-        callToAction: {
-          target: '_blank',
-          text: 'Başlayın',
-          href: '#',
-        },
+<Prices
+  title="Fiyatlarımız"
+  subtitle="Sadece ihtiyacınız olan için ödeme yapın"
+  prices={[
+    {
+      title: 'Temel',
+      subtitle: 'Bireysel kullanım için ideal seçim',
+      price: 7500,
+      period: 'aylık',
+      items: [
+        { description: 'Serbest ve esnek kullanım' },
+        { description: 'Kolay ve hızlı erişim' },
+        { description: 'Güvenilir performans' },
+        { description: 'Kullanıcı dostu arayüz' },
+        { description: 'Temel raporlama özellikleri' },
+      ],
+      callToAction: {
+        target: '_blank',
+        text: 'Başlayın',
+        href: '#',
       },
-      {
-        title: 'standart',
-        subtitle: 'Küçük ekipler için en uygun seçenek',
-        price: 12500,
-        period: 'Aylık',
-        items: [
-          {
-            description: 'Gelişmiş özellikler',
-          },
-          {
-            description: 'Takım içi iş birliği',
-          },
-          {
-            description: 'Öncelikli destek',
-          },
-          {
-            description: 'Daha fazla depolama alanı',
-          },
-          {
-            description: 'Esnek planlama araçları',
-          },
-        ],
-        callToAction: {
-          target: '_blank',
-          text: 'Başlayın',
-          href: '#',
-        },
-        hasRibbon: true,
-        ribbonTitle: 'popüler',
+    },
+    {
+      title: 'Standart',
+      subtitle: 'Küçük ekipler için en uygun seçenek',
+      price: 12500,
+      period: 'aylık',
+      items: [
+        { description: 'Gelişmiş özellikler' },
+        { description: 'Takım içi iş birliği' },
+        { description: 'Öncelikli destek' },
+        { description: 'Daha fazla depolama alanı' },
+        { description: 'Esnek planlama araçları' },
+        { description: 'Detaylı analiz ve raporlama' },
+        { description: 'Entegrasyon desteği' },
+      ],
+      callToAction: {
+        target: '_blank',
+        text: 'Başlayın',
+        href: '#',
       },
-      {
-        title: 'premium',
-        subtitle: 'Şirketler için özel çözüm',
-        price: 25000,
-        period: 'Aylık',
-        items: [
-          {
-            description: 'Özel danışmanlık',
-          },
-          {
-            description: 'Yüksek öncelikli destek',
-          },
-          {
-            description: 'Özelleştirilebilir raporlar',
-          },
-          {
-            description: 'Kurumsal entegrasyonlar',
-          },
-        ],
-        callToAction: {
-          target: '_blank',
-          text: 'Başlayın',
-          href: '#',
-        },
+      hasRibbon: true,
+      ribbonTitle: 'Popüler',
+    },
+    {
+      title: 'Premium',
+      subtitle: 'Şirketler için özel çözüm',
+      price: 25000,
+      period: 'aylık',
+      items: [
+        { description: 'Gelişmiş özellikler' },
+        { description: 'Takım içi iş birliği' },
+        { description: 'Öncelikli destek' },
+        { description: 'Daha fazla depolama alanı' },
+        { description: 'Kişiye özel danışmanlık' },
+        { description: 'Yüksek öncelikli destek' },
+        { description: 'Özelleştirilebilir raporlar' },
+        { description: 'Kurumsal entegrasyonlar' },
+        { description: 'Özel eğitim ve onboarding' },
+        { description: '7/24 teknik destek' },
+        { description: 'Performans optimizasyonu' },
+        { description: 'Güvenlik ve uyumluluk danışmanlığı' },
+      ],
+      callToAction: {
+        target: '_blank',
+        text: 'Başlayın',
+        href: '#',
       },
-    ]}
-  />
+    },
+  ]}
+/>
+
+
 
   <!-- Features3 Widget ************** -->
 
@@ -153,45 +140,46 @@ const metadata = {
 
   <!-- Steps Widget ****************** -->
 
-  <Steps
-    title="Planlardan yaratıcılığa rehberli yolculuk"
-    tagline="basitleştirilmiş süreç"
-    isReversed={true}
-    items={[
-      {
-        title: 'Planları keşfedin',
-        icon: 'tabler:number-1',
-      },
-      {
-        title: 'Bir plan seçin',
-        icon: 'tabler:number-2',
-      },
-      {
-        title: 'Kayıt olun / Giriş yapın',
-        icon: 'tabler:number-3',
-      },
-      {
-        title: 'Siparişi gözden geçirin',
-        icon: 'tabler:number-4',
-      },
-      {
-        title: 'Ödeme bilgilerini girin',
-        icon: 'tabler:number-5',
-      },
-      {
-        title: 'Onay',
-        icon: 'tabler:number-6',
-      },
-      {
-        title: 'Şablonu indirip kullanmaya başlayın',
-        icon: 'tabler:number-7',
-      },
-    ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1536816579748-4ecb3f03d72a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',
-      alt: 'Adım görseli',
-    }}
-  />
+<Steps
+  title="İletişimden teslimata adım adım süreç"
+  tagline="Sade ve rehberli bir ilerleyiş"
+  isReversed={true}
+  items={[
+    {
+      title: 'İhtiyacınızı bizimle paylaşın',
+      icon: 'tabler:number-1',
+    },
+    {
+      title: 'Size özel çözüm ve teklif sunalım',
+      icon: 'tabler:number-2',
+    },
+    {
+      title: 'Teklif onayını iletin',
+      icon: 'tabler:number-3',
+    },
+    {
+      title: 'Sözleşme ve faturalama adımı',
+      icon: 'tabler:number-4',
+    },
+    {
+      title: 'Ödemeyi gerçekleştirin',
+      icon: 'tabler:number-5',
+    },
+    {
+      title: 'Proje başlangıcı',
+      icon: 'tabler:number-6',
+    },
+    {
+      title: 'Teslim ve yayınlama',
+      icon: 'tabler:number-7',
+    },
+  ]}
+  image={{
+    src: 'https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-4.0.3&auto=format&fit=crop&w=987&q=80',
+    alt: 'İş akışı görseli',
+  }}
+/>
+
 
   <!-- FAQs Widget ******************* -->
 

@@ -31,11 +31,11 @@ export const headerData = {
         },
         {
           text: 'Kullanım Koşulları',
-          href: getPermalink('/'),
+          href: getPermalink('/terms'),
         },
         {
           text: 'Gizlilik Politikası',
-          href: getPermalink('/'),
+          href: getPermalink('/privacy'),
         },
       ],
     },
@@ -63,8 +63,8 @@ export const footerData = {
         { text: 'Fiyatlandırma', href: getPermalink('/pricing') },
         { text: 'Hakkımızda', href: getPermalink('/about') },
         { text: 'İletişim', href: getPermalink('/contact') },
-        { text: 'Kullanım Koşulları', href: getPermalink('/') },
-        { text: 'Gizlilik Politikası', href: getPermalink('/') },
+        { text: 'Kullanım Koşulları', href: getPermalink('/terms') },
+        { text: 'Gizlilik Politikası', href: getPermalink('/privacy') },
       ],
     },
     {
@@ -81,8 +81,8 @@ export const footerData = {
     },
   ],
   secondaryLinks: [
-    { text: 'Kullanım Koşulları', href: getPermalink('/') },
-    { text: 'Gizlilik Politikası', href: getPermalink('/') },
+    { text: 'Kullanım Koşulları', href: getPermalink('/terms') },
+    { text: 'Gizlilik Politikası', href: getPermalink('/privacy') },
   ],
   socialLinks: [
     { ariaLabel: 'X', icon: 'tabler:brand-x', href: 'https://twitter.com/emadocsyazilim' },
