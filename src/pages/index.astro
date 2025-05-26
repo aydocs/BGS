@@ -13,9 +13,11 @@ import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
-  title: 'EmaDocs Yazılım Ajansı | Sakarya, İstanbul, Kayseri ve Türkiye Geneli Özel Yazılım, Web Tasarım & Dijital Çözümler',
+  title:
+    'EmaDocs Yazılım Ajansı | Sakarya, İstanbul, Kayseri ve Türkiye Geneli Özel Yazılım, Web Tasarım & Dijital Çözümler',
   ignoreTitleTemplate: true,
-  description: 'EmaDocs Yazılım Ajansı olarak Sakarya, İstanbul, Kayseri ve Türkiye genelinde; özel yazılım geliştirme, web tasarım, mobil uygulama geliştirme ve dijital pazarlama hizmetleri sunuyoruz. Projelerinizi dijitalde güçlendirmek için bizimle iletişime geçin.',
+  description:
+    'EmaDocs Yazılım Ajansı olarak Sakarya, İstanbul, Kayseri ve Türkiye genelinde; özel yazılım geliştirme, web tasarım, mobil uygulama geliştirme ve dijital pazarlama hizmetleri sunuyoruz. Projelerinizi dijitalde güçlendirmek için bizimle iletişime geçin.',
   keywords: [
     'yazılım ajansı',
     'web tasarım hizmetleri',
@@ -37,7 +39,8 @@ const metadata = {
   charset: 'utf-8',
   og: {
     title: 'EmaDocs Yazılım Ajansı | Türkiye Geneli Yazılım ve Dijital Çözümler',
-    description: 'Profesyonel yazılım, web tasarım ve dijital pazarlama hizmetleri ile projelerinizi dijitalde bir üst seviyeye taşıyoruz.',
+    description:
+      'Profesyonel yazılım, web tasarım ve dijital pazarlama hizmetleri ile projelerinizi dijitalde bir üst seviyeye taşıyoruz.',
     url: 'https://emadocs.com',
     image: 'https://emadocs.com/assets/og-image.png',
     type: 'website',
@@ -49,14 +52,12 @@ const metadata = {
     site: '@emadocs',
     creator: '@emadocs',
     title: 'EmaDocs Yazılım Ajansı',
-    description: 'Sakarya, İstanbul, Kayseri ve Türkiye geneline özel yazılım, web tasarım ve dijital pazarlama hizmetleri.',
+    description:
+      'Sakarya, İstanbul, Kayseri ve Türkiye geneline özel yazılım, web tasarım ve dijital pazarlama hizmetleri.',
     image: 'https://emadocs.com/assets/twitter-image.png',
   },
   favicon: '/images/favicon.png',
 };
-
-
-
 ---
 
 <Layout metadata={metadata}>
@@ -70,17 +71,17 @@ const metadata = {
         href: '/contact',
         icon: 'tabler:mail-forward',
       },
-      { 
-        text: 'Detaylı Bilgi', 
+      {
+        text: 'Detaylı Bilgi',
         href: '#features',
         icon: 'tabler:circle-chevron-right',
       },
     ]}
     image={{ src: '~/assets/images/hero-image.png', alt: 'EmaDocs Hero Görseli' }}
   >
-
     <Fragment slot="title">
-      <span class="text-accent dark:text-white">Emadocs</span> Yazılım Ajansı ile Türkiye genelinde modern ve profesyonel çözümler.
+      <span class="text-accent dark:text-white">Emadocs</span> Yazılım Ajansı ile Türkiye genelinde modern ve profesyonel
+      çözümler.
     </Fragment>
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
@@ -106,8 +107,7 @@ const metadata = {
     items={[
       {
         title: 'Astro + Tailwind CSS Entegrasyonu',
-        description:
-          'İki güçlü teknolojinin entegrasyonu ile yüksek verimlilik, performans ve esneklik sağlanır.',
+        description: 'İki güçlü teknolojinin entegrasyonu ile yüksek verimlilik, performans ve esneklik sağlanır.',
         icon: 'tabler:brand-tailwind',
       },
       {
@@ -130,8 +130,7 @@ const metadata = {
       },
       {
         title: 'Arama Motoru Optimizasyonu (SEO)',
-        description:
-          'Web sitenizin görünürlüğünü artırarak, daha fazla organik trafik çekmenize olanak sağlar.',
+        description: 'Web sitenizin görünürlüğünü artırarak, daha fazla organik trafik çekmenize olanak sağlar.',
         icon: 'tabler:arrows-right-left',
       },
       {
@@ -152,18 +151,15 @@ const metadata = {
     items={[
       {
         title: 'Astro 5.0 Üzerine İnşa Edildi',
-        description:
-          'Modern, hızlı ve geliştirici dostu statik site üreticisinin avantajlarından faydalanır.',
+        description: 'Modern, hızlı ve geliştirici dostu statik site üreticisinin avantajlarından faydalanır.',
       },
       {
         title: 'Tailwind CSS ile Stil Verildi',
-        description:
-          'Popüler utility-first CSS framework ile hızlı tasarım ve tutarlı stil sunar.',
+        description: 'Popüler utility-first CSS framework ile hızlı tasarım ve tutarlı stil sunar.',
       },
       {
         title: 'Tarayıcılar Arası Uyumluluk',
-        description:
-          'Web sitenizin tüm tarayıcılarda tutarlı görünmesini ve sorunsuz çalışmasını sağlar.',
+        description: 'Web sitenizin tüm tarayıcılarda tutarlı görünmesini ve sorunsuz çalışmasını sağlar.',
       },
     ]}
     image={{
@@ -172,7 +168,9 @@ const metadata = {
     }}
   >
     <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Modern Temeller Üzerinde İnşa Edildi</h3>
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
+        Modern Temeller Üzerinde İnşa Edildi
+      </h3>
       Sektörde öne çıkmak için en iyi uygulamalarla donatıldı.
     </Fragment>
 
@@ -197,13 +195,11 @@ const metadata = {
       },
       {
         title: 'Tamamen Duyarlı Tasarım',
-        description:
-          'Farklı cihaz ve ekran boyutlarında mükemmel performans ve tutarlı kullanıcı deneyimi sağlar.',
+        description: 'Farklı cihaz ve ekran boyutlarında mükemmel performans ve tutarlı kullanıcı deneyimi sağlar.',
       },
       {
         title: 'Medya Entegrasyonu',
-        description:
-          'İçeriğinizi zenginleştiren resim, video ve diğer medya öğelerini kolayca entegre edin.',
+        description: 'İçeriğinizi zenginleştiren resim, video ve diğer medya öğelerini kolayca entegre edin.',
       },
     ]}
     image={{
@@ -259,39 +255,38 @@ const metadata = {
   <!-- Steps Widget ****************** -->
 
   <Steps
-  title="Hayalinizdeki web sitesini EmaDocs ile kısa sürede hayata geçirin."
-  items={[
-    {
-      title: 'Adım 1: <span class="font-medium">İletişime Geçin</span>',
-      description:
-        "Bize ulaşarak projenizi anlatın. İhtiyacınıza uygun çözümleri birlikte planlayalım ve ilk adımı atalım.",
-      icon: 'tabler:message-2',
-    },
-    {
-      title: 'Adım 2: <span class="font-medium">İçeriğinizi Paylaşın</span>',
-      description:
-        "Markanızı yansıtan görseller, metinler ve içerikleri bize iletin. Dijital kimliğinizin temellerini birlikte atalım.",
-      icon: 'tabler:photo-edit',
-    },
-    {
-      title: 'Adım 3: <span class="font-medium">Tasarımı Özelleştirin</span>',
-      description:
-        'Renklerden yazı tipine, sayfa yapısından kullanıcı deneyimine kadar tüm detayları isteğinize göre tasarlıyoruz.',
-      icon: 'tabler:brush',
-    },
-    {
-      title: 'Hazır!',
-      description:
-        'Test ve onay süreci sonrası web siteniz yayında. Artık hedef kitlenizle profesyonel bir dijital ortamda buluşabilirsiniz.',
-      icon: 'tabler:check',
-    },
-  ]}
-  image={{
-    src: 'https://images.unsplash.com/photo-1616198814651-e71f960c3180?ixlib=rb-4.0.3&auto=format&fit=crop&w=987&q=80',
-    alt: 'Web Tasarım Süreci Görseli',
-  }}
-/>
-
+    title="Hayalinizdeki web sitesini EmaDocs ile kısa sürede hayata geçirin."
+    items={[
+      {
+        title: 'Adım 1: <span class="font-medium">İletişime Geçin</span>',
+        description:
+          'Bize ulaşarak projenizi anlatın. İhtiyacınıza uygun çözümleri birlikte planlayalım ve ilk adımı atalım.',
+        icon: 'tabler:message-2',
+      },
+      {
+        title: 'Adım 2: <span class="font-medium">İçeriğinizi Paylaşın</span>',
+        description:
+          'Markanızı yansıtan görseller, metinler ve içerikleri bize iletin. Dijital kimliğinizin temellerini birlikte atalım.',
+        icon: 'tabler:photo-edit',
+      },
+      {
+        title: 'Adım 3: <span class="font-medium">Tasarımı Özelleştirin</span>',
+        description:
+          'Renklerden yazı tipine, sayfa yapısından kullanıcı deneyimine kadar tüm detayları isteğinize göre tasarlıyoruz.',
+        icon: 'tabler:brush',
+      },
+      {
+        title: 'Hazır!',
+        description:
+          'Test ve onay süreci sonrası web siteniz yayında. Artık hedef kitlenizle profesyonel bir dijital ortamda buluşabilirsiniz.',
+        icon: 'tabler:check',
+      },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1616198814651-e71f960c3180?ixlib=rb-4.0.3&auto=format&fit=crop&w=987&q=80',
+      alt: 'Web Tasarım Süreci Görseli',
+    }}
+  />
 
   <!-- Features2 Widget ************** -->
 
@@ -302,31 +297,27 @@ const metadata = {
     items={[
       {
         title: 'Başlıklar',
-        description: "Navigasyon için vazgeçilmez, web sitelerinde yol gösterici görevi görür.",
+        description: 'Navigasyon için vazgeçilmez, web sitelerinde yol gösterici görevi görür.',
         icon: 'flat-color-icons:template',
       },
       {
         title: 'Hero Bölümleri',
-        description:
-          "Süper kahraman gibi etkileyici açılışlar sağlar, ziyaretçilerin dikkatini çeker.",
+        description: 'Süper kahraman gibi etkileyici açılışlar sağlar, ziyaretçilerin dikkatini çeker.',
         icon: 'flat-color-icons:gallery',
       },
       {
         title: 'Özellikler',
-        description:
-          'Web sitenizin güçlü yanlarını ve sunduğu avantajları sergiler.',
+        description: 'Web sitenizin güçlü yanlarını ve sunduğu avantajları sergiler.',
         icon: 'flat-color-icons:approval',
       },
       {
         title: 'İçerik',
-        description:
-          "Sitenin temelini oluşturur; ziyaretçiye değerli bilgi sunar.",
+        description: 'Sitenin temelini oluşturur; ziyaretçiye değerli bilgi sunar.',
         icon: 'flat-color-icons:document',
       },
       {
         title: 'Call-to-Action',
-        description:
-          'Ziyaretçiyi harekete geçiren teşvik edici buton ve çağrılar.',
+        description: 'Ziyaretçiyi harekete geçiren teşvik edici buton ve çağrılar.',
         icon: 'flat-color-icons:advertising',
       },
       {
@@ -341,13 +332,12 @@ const metadata = {
       },
       {
         title: 'İletişim',
-        description:
-          'Ziyaretçilerin size kolayca ulaşmasını sağlar.',
+        description: 'Ziyaretçilerin size kolayca ulaşmasını sağlar.',
         icon: 'flat-color-icons:business-contact',
       },
       {
         title: 'Altbilgi',
-        description: "Sayfanın sonunda ek bilgiler ve bağlantılar içerir.",
+        description: 'Sayfanın sonunda ek bilgiler ve bağlantılar içerir.',
         icon: 'flat-color-icons:database',
       },
     ]}
@@ -358,14 +348,15 @@ const metadata = {
   </Features2>
 
   <!-- HighlightedPosts Widget ******* -->
-<!--
+
   <BlogLatestPosts
     title="Blogumuzda Daha Fazla İçerik Keşfedin"
-    information={`Blog, EmaDocs tarafından sunulan yazılım ve dijital çözümlerle ilgili önemli bilgiler içermektedir.
-                    Her yeni makale, Astro + Tailwind CSS kullanarak uzmanlaşmanız için önemli bir adımdır.
-                    Astro, oldukça ilgi çekici ve modern bir teknolojidir. Teşekkürler.`}
+    information={`EmaDocs Blog, yazılım geliştirme, proje yönetimi ve dijital çözümler üzerine düşünülmüş içerikler sunar.<br />
+  <br />
+  Her makalemizde, sektörde edindiğimiz deneyimleri ve güncel teknolojik gelişmeleri anlaşılır bir dille paylaşmayı amaçlıyoruz.<br />
+  `}
   />
--->
+
   <!-- FAQs Widget ******************* -->
 
   <FAQs
@@ -377,7 +368,7 @@ const metadata = {
       {
         title: 'Neden EmaDocs?',
         description:
-          "EmaDocs, müşterilerine güvenilir ve etkili çözümler sunmayı amaçlayan bir yazılım ajansıdır. Uzman kadromuzla her ihtiyaca uygun projeler geliştiriyoruz.",
+          'EmaDocs, müşterilerine güvenilir ve etkili çözümler sunmayı amaçlayan bir yazılım ajansıdır. Uzman kadromuzla her ihtiyaca uygun projeler geliştiriyoruz.',
       },
       {
         title: 'Başlamak için teknik bilgi gerekli mi?',
@@ -386,13 +377,11 @@ const metadata = {
       },
       {
         title: 'Şablon ne kadar esnek?',
-        description:
-          'Tamamen özelleştirilebilir. İhtiyacınıza göre modifiye edilebilir ve genişletilebilir.',
+        description: 'Tamamen özelleştirilebilir. İhtiyacınıza göre modifiye edilebilir ve genişletilebilir.',
       },
       {
         title: 'Mobil uyumluluk var mı?',
-        description:
-          'Evet, tüm bileşenler mobil cihazlarla uyumludur ve responsive olarak tasarlanmıştır.',
+        description: 'Evet, tüm bileşenler mobil cihazlarla uyumludur ve responsive olarak tasarlanmıştır.',
       },
       {
         title: 'EmaDocs hangi şehirlerde hizmet veriyor?',
@@ -401,8 +390,7 @@ const metadata = {
       },
       {
         title: 'Destek alabilir miyim?',
-        description:
-          'Elbette, projelerinizde sürekli destek ve güncellemeler sunuyoruz.',
+        description: 'Elbette, projelerinizde sürekli destek ve güncellemeler sunuyoruz.',
       },
     ]}
   />
@@ -420,6 +408,4 @@ const metadata = {
   />
 
   <!-- CallToAction Widget *********** -->
-
-
 </Layout>

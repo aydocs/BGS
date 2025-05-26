@@ -1,6 +1,6 @@
 site:
   name: EmaDocs
-  site: 'https://astrowind.vercel.app'
+  site: 'https://emadocs.com'
   base: '/'
   trailingSlash: false
 
