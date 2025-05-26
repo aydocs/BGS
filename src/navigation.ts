@@ -2,50 +2,28 @@ import { getPermalink } from './utils/permalinks';
 
 export const headerData = {
   links: [
-    {
-      text: 'Ana Sayfa',
-      href: '/',
-    },
+    { text: 'Ana Sayfa', href: '/' },
+    { text: 'Blog', href: getPermalink('/blog') },
     {
       text: 'Sayfalar',
       links: [
-        {
-          text: 'Özellikler (Bağlantı)',
-          href: getPermalink('/#features'),
-        },
-        {
-          text: 'Hizmetler',
-          href: getPermalink('/services'),
-        },
-        {
-          text: 'Fiyatlandırma',
-          href: getPermalink('/pricing'),
-        },
-        {
-          text: 'Hakkımızda',
-          href: getPermalink('/about'),
-        },
-        {
-          text: 'İletişim',
-          href: getPermalink('/contact'),
-        },
+        { text: 'Özellikler', href: getPermalink('/#features') },
+        { text: 'Hizmetler', href: getPermalink('/services') },
+        { text: 'Fiyatlandırma', href: getPermalink('/pricing') },
+        { text: 'Hakkımızda', href: getPermalink('/about') },
+        { text: 'İletişim', href: getPermalink('/contact') },
+        { text: 'Referanslar', href: getPermalink('/testimonials') },
       ],
     },
-{
-      text: 'Şartlar & Politikalar',
+    {
+      text: 'Yasal',
       links: [
-        {
-          text: 'Kullanım Koşulları',
-          href: getPermalink('/terms'),
-        },
-        {
-          text: 'Gizlilik Politikası',
-          href: getPermalink('/privacy'),
-        },
+        { text: 'Kullanım Koşulları', href: getPermalink('/terms') },
+        { text: 'Gizlilik Politikası', href: getPermalink('/privacy') },
       ],
     },
   ],
-  actions: [{ text: 'İletişim', href: '/contact' }],
+  actions: [{ text: 'İletişim', href: getPermalink('/contact') }],
 };
 
 export const footerData = {
@@ -53,30 +31,26 @@ export const footerData = {
     {
       title: 'Menü',
       links: [
-        { text: 'Ana Sayfa', href: '/' },
-      ],
-    },
-    {
-      title: 'Sayfalar',
-      links: [
-        { text: 'Özellikler (Bağlantı)', href: getPermalink('/#features') },
-        { text: 'Hizmetler', href: getPermalink('/services') },
-        { text: 'Fiyatlandırma', href: getPermalink('/pricing') },
+        { text: 'Ana Sayfa', href: getPermalink('/') },
+        { text: 'Blog', href: getPermalink('/blog') },
         { text: 'Hakkımızda', href: getPermalink('/about') },
         { text: 'İletişim', href: getPermalink('/contact') },
       ],
     },
     {
-      title: 'Şartlar & Politikalar',
+      title: 'Sayfalar',
       links: [
-        { text: 'Kullanım Koşulları', href: getPermalink('/terms') },
-        { text: 'Gizlilik Politikası', href: getPermalink('/privacy') },
+        { text: 'Özellikler', href: getPermalink('/#features') },
+        { text: 'Hizmetler', href: getPermalink('/services') },
+        { text: 'Fiyatlandırma', href: getPermalink('/pricing') },
+        { text: 'Referanslar', href: getPermalink('/testimonials') },
       ],
     },
     {
-      title: 'Şirket',
+      title: 'Yasal',
       links: [
-        { text: 'Hakkımızda', href: getPermalink('/about') },
+        { text: 'Kullanım Koşulları', href: getPermalink('/terms') },
+        { text: 'Gizlilik Politikası', href: getPermalink('/privacy') },
       ],
     },
   ],
@@ -90,7 +64,6 @@ export const footerData = {
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: 'https://facebook.com/emadocsyazilim' },
   ],
   footNote: `
-
-    Made by <a class="text-blue-600 underline dark:text-muted" href="https://emadocs.com/"> EmaDocs Yazılım</a> · Tüm hakları saklıdır.
+    Made by <a class="text-blue-600 underline dark:text-muted" href="https://emadocs.com/">EmaDocs Yazılım</a> · Tüm hakları saklıdır.
   `,
 };
