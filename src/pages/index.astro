@@ -13,54 +13,53 @@ import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
-  title: 'EmaDocs Yazılım Ajansı — Sakarya, İstanbul, Kayseri ve Türkiye Genelinde Yazılım Çözümleri',
+  title: 'EmaDocs Yazılım Ajansı | Sakarya, İstanbul, Kayseri ve Türkiye Geneli Özel Yazılım, Web Tasarım & Dijital Çözümler',
   ignoreTitleTemplate: true,
-  description: 'EmaDocs Yazılım Ajansı, Sakarya, İstanbul, Kayseri ve tüm Türkiye genelinde özel yazılım geliştirme, web tasarım ve dijital çözümler sunar.',
-  keywords: ['yazılım ajansı', 'web tasarım', 'mobil uygulama', 'Sakarya yazılım', 'İstanbul yazılım', 'Kayseri yazılım', 'EmaDocs'],
+  description: 'EmaDocs Yazılım Ajansı olarak Sakarya, İstanbul, Kayseri ve Türkiye genelinde; özel yazılım geliştirme, web tasarım, mobil uygulama geliştirme ve dijital pazarlama hizmetleri sunuyoruz. Projelerinizi dijitalde güçlendirmek için bizimle iletişime geçin.',
+  keywords: [
+    'yazılım ajansı',
+    'web tasarım hizmetleri',
+    'mobil uygulama geliştirme',
+    'özel yazılım geliştirme',
+    'dijital pazarlama',
+    'Sakarya yazılım ajansı',
+    'İstanbul yazılım ajansı',
+    'Kayseri yazılım çözümleri',
+    'EmaDocs dijital çözümler',
+    'SEO hizmetleri',
+    'e-ticaret çözümleri',
+    'kurumsal yazılım',
+  ],
   author: 'EmaDocs Yazılım Ajansı',
   robots: 'index, follow',
-  viewport: 'width=device-width, initial-scale=1.0',
-  charset: 'UTF-8',
+  canonical: 'https://emadocs.com',
+  viewport: 'width=device-width, initial-scale=1, shrink-to-fit=no',
+  charset: 'utf-8',
   og: {
-    title: 'EmaDocs Yazılım Ajansı — Sakarya, İstanbul, Kayseri ve Türkiye',
-    description: 'Profesyonel yazılım ve dijital çözümler sunan EmaDocs, Türkiye’nin dört bir yanındaki müşterilerine hizmet veriyor.',
+    title: 'EmaDocs Yazılım Ajansı | Türkiye Geneli Yazılım ve Dijital Çözümler',
+    description: 'Profesyonel yazılım, web tasarım ve dijital pazarlama hizmetleri ile projelerinizi dijitalde bir üst seviyeye taşıyoruz.',
     url: 'https://emadocs.com',
     image: 'https://emadocs.com/assets/og-image.png',
     type: 'website',
+    locale: 'tr_TR',
+    site_name: 'EmaDocs Yazılım Ajansı',
   },
   twitter: {
     card: 'summary_large_image',
     site: '@emadocs',
     creator: '@emadocs',
     title: 'EmaDocs Yazılım Ajansı',
-    description: 'Sakarya, İstanbul, Kayseri ve Türkiye geneline hizmet veren dijital çözümler uzmanı',
+    description: 'Sakarya, İstanbul, Kayseri ve Türkiye geneline özel yazılım, web tasarım ve dijital pazarlama hizmetleri.',
     image: 'https://emadocs.com/assets/twitter-image.png',
-  }
+  },
+  favicon: '/images/favicon.png',
 };
+
+
 
 ---
 
 <Layout metadata={metadata}>
-  <div
-    id="alert"
-    class="alert bg-yellow-100 border-l-4 border-yellow-500 text-yellow-700 p-4 mb-6 transition-opacity duration-700"
-    role="alert"
-  >
-    <p class="font-bold">Dikkat</p>
-    <p>
-      Firmamızın şu anda belgeleri ve evrakları olmadığı için bu site sadece tanıtım amaçlıdır. Belgelerimiz ve evraklarımız üzerinde çalışıyoruz, çok yakında açılacak!
-    </p>
-  </div>
-
-  <script is:inline>
-    setTimeout(() => {
-      const alertEl = document.getElementById('alert');
-      if (alertEl) {
-        alertEl.style.opacity = '0';
-        setTimeout(() => alertEl.remove(), 700);
-      }
-    }, 7500);
-  </script>
   <!-- Hero Widget ******************* -->
 
   <Hero

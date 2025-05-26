@@ -29,6 +29,11 @@ export const headerData = {
           text: 'İletişim',
           href: getPermalink('/contact'),
         },
+      ],
+    },
+{
+      text: 'Şartlar & Politikalar',
+      links: [
         {
           text: 'Kullanım Koşulları',
           href: getPermalink('/terms'),
@@ -38,10 +43,6 @@ export const headerData = {
           href: getPermalink('/privacy'),
         },
       ],
-    },
-    {
-      text: 'Widgetlar',
-      href: '#',
     },
   ],
   actions: [{ text: 'İletişim', href: '/contact' }],
@@ -63,14 +64,13 @@ export const footerData = {
         { text: 'Fiyatlandırma', href: getPermalink('/pricing') },
         { text: 'Hakkımızda', href: getPermalink('/about') },
         { text: 'İletişim', href: getPermalink('/contact') },
-        { text: 'Kullanım Koşulları', href: getPermalink('/terms') },
-        { text: 'Gizlilik Politikası', href: getPermalink('/privacy') },
       ],
     },
     {
-      title: 'Widgetlar',
+      title: 'Şartlar & Politikalar',
       links: [
-        { text: 'Widgetlar', href: '#' },
+        { text: 'Kullanım Koşulları', href: getPermalink('/terms') },
+        { text: 'Gizlilik Politikası', href: getPermalink('/privacy') },
       ],
     },
     {
