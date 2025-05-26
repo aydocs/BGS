@@ -1,4 +1,4 @@
-import { I18N } from 'emadocs:config';
+import { I18N } from 'astrowind:config';
 
 export const formatter: Intl.DateTimeFormat = new Intl.DateTimeFormat(I18N?.language, {
   year: 'numeric',
