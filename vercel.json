@@ -21,7 +21,7 @@
           "value": "blog.emadocs.com"
         }
       ],
-      "destination": "/blog/$1"
+      "destination": "/$1"
     },
     {
       "source": "/(.*)",
