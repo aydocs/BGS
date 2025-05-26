@@ -3,7 +3,15 @@ import { getPermalink } from './utils/permalinks';
 export const headerData = {
   links: [
     { text: 'Ana Sayfa', href: '/' },
-    { text: 'Blog', href: getPermalink('/blog') },
+    {
+      text: 'Blog',
+      links: [
+        { text: 'Genel', href: getPermalink('/blog') },
+        { text: 'Siber Güvenlik', href: getPermalink('/category/siber-guvenlik') },
+        { text: 'Yazılım Geliştirme', href: getPermalink('/category/yazilim-gelistirme') },
+        { text: 'Yazılım Güvenliği', href: getPermalink('/category/yazilim-guvenligi' ) },
+      ],
+    },
     {
       text: 'Sayfalar',
       links: [
@@ -35,6 +43,15 @@ export const footerData = {
         { text: 'Blog', href: getPermalink('/blog') },
         { text: 'Hakkımızda', href: getPermalink('/about') },
         { text: 'İletişim', href: getPermalink('/contact') },
+      ],
+    },
+        {
+      title: 'Blog',
+      links: [
+        { text: 'Genel', href: getPermalink('/blog') },
+        { text: 'Siber Güvenlik', href: getPermalink('/category/siber-guvenlik') },
+        { text: 'Yazılım Geliştirme', href: getPermalink('/category/yazilim-gelistirme') },
+        { text: 'Yazılım Güvenliği', href: getPermalink('/category/yazilim-guvenligi' ) },
       ],
     },
     {
