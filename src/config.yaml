@@ -1,72 +1,65 @@
 site:
-  name: BGS
+  name: BGS İnteraktif A.Ş.
   site: 'https://bgs.io'
   base: '/'
   trailingSlash: false
-
   googleSiteVerificationId: orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M
 
-# Default SEO metadata
 metadata:
   title:
-    default: BGS
-    template: '%s — BGS'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    default: BGS İnteraktif
+    template: '%s — BGS İnteraktif'
+  description: "🚀 20+ yıllık deneyim ile sektörlere özel mobil yazılım, donanım çözümleri, otomasyon ve Ar-Ge odaklı teknoloji projeleri geliştiriyoruz."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: BGS
+    site_name: BGS İnteraktif
     images:
-      - url: '~/assets/images/default.png'
+      - url: '~/assets/images/bgs-logo.jpg'
         width: 1200
         height: 628
     type: website
   twitter:
-    handle: '@onwidget'
-    site: '@onwidget'
+    handle: '@bgsio'
+    site: '@bgsio'
     cardType: summary_large_image
 
 i18n:
-  language: en
+  language: tr
   textDirection: ltr
 
 apps:
   blog:
     isEnabled: true
     postsPerPage: 6
-
     post:
       isEnabled: true
-      permalink: '/%slug%' # Variables: %slug%, %year%, %month%, %day%, %hour%, %minute%, %second%, %category%
+      permalink: '/%slug%'
       robots:
         index: true
-
     list:
       isEnabled: true
-      pathname: 'blog' # Blog main path, you can change this to "articles" (/articles)
+      pathname: 'blog'
       robots:
         index: true
-
     category:
       isEnabled: true
-      pathname: 'category' # Category main path /category/some-category, you can change this to "group" (/group/some-category)
+      pathname: 'kategori'
       robots:
         index: true
-
     tag:
       isEnabled: true
-      pathname: 'tag' # Tag main path /tag/some-tag, you can change this to "topics" (/topics/some-category)
+      pathname: 'etiket'
       robots:
         index: false
-
     isRelatedPostsEnabled: true
     relatedPostsCount: 4
 
 analytics:
   vendors:
     googleAnalytics:
-      id: null # or "G-XXXXXXXXXX"
+      id: G-XXXXXXXXXX
 
 ui:
-  theme: 'system' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
+  theme: 'system' # or "light", "dark"

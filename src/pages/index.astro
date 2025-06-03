@@ -18,44 +18,44 @@ import bgsLogoImage from 'src/assets/images/bgs-logo.jpg';
 
 const metadata = {
   title:
-    'BGS Yazılım Ajansı | Sakarya, İstanbul, Kayseri ve Türkiye Geneli Özel Yazılım, Web Tasarım & Dijital Çözümler',
+    'BGS Yazılım  | Sakarya, İstanbul, Kayseri ve Türkiye Geneli Özel Yazılım, Web Tasarım & Dijital Çözümler',
   ignoreTitleTemplate: true,
   description:
-    'BGS Yazılım Ajansı olarak Sakarya, İstanbul, Kayseri ve Türkiye genelinde; özel yazılım geliştirme, web tasarım, mobil uygulama geliştirme ve dijital pazarlama hizmetleri sunuyoruz. Projelerinizi dijitalde güçlendirmek için bizimle iletişime geçin.',
+    'BGS Yazılım  olarak Sakarya, İstanbul, Kayseri ve Türkiye genelinde; özel yazılım geliştirme, web tasarım, mobil uygulama geliştirme ve dijital pazarlama hizmetleri sunuyoruz. Projelerinizi dijitalde güçlendirmek için bizimle iletişime geçin.',
   keywords: [
-    'yazılım ajansı',
+    'yazılım ',
     'web tasarım hizmetleri',
     'mobil uygulama geliştirme',
     'özel yazılım geliştirme',
     'dijital pazarlama',
-    'Sakarya yazılım ajansı',
-    'İstanbul yazılım ajansı',
+    'Sakarya yazılım ',
+    'İstanbul yazılım ',
     'Kayseri yazılım çözümleri',
     'BGS dijital çözümler',
     'SEO hizmetleri',
     'e-ticaret çözümleri',
     'kurumsal yazılım',
   ],
-  author: 'BGS Yazılım Ajansı',
+  author: 'BGS ',
   robots: 'index, follow',
   canonical: 'https://bgs.io',
   viewport: 'width=device-width, initial-scale=1, shrink-to-fit=no',
   charset: 'utf-8',
   og: {
-    title: 'BGS Yazılım Ajansı | Türkiye Geneli Yazılım ve Dijital Çözümler',
+    title: 'BGS Yazılım  | Türkiye Geneli Yazılım ve Dijital Çözümler',
     description:
       'Profesyonel yazılım, web tasarım ve dijital pazarlama hizmetleri ile projelerinizi dijitalde bir üst seviyeye taşıyoruz.',
     url: 'https://bgs.io',
-    image: 'https://bgs.io/assets/og-image.png',
+    image: '/src/assets/images/bgs-logo.jpg',
     type: 'website',
     locale: 'tr_TR',
-    site_name: 'BGS Yazılım Ajansı',
+    site_name: 'BGS Yazılım ',
   },
   twitter: {
     card: 'summary_large_image',
     site: '@BGS',
     creator: '@BGS',
-    title: 'BGS Yazılım Ajansı',
+    title: 'BGS Yazılım ',
     description:
       'Sakarya, İstanbul, Kayseri ve Türkiye geneline özel yazılım, web tasarım ve dijital pazarlama hizmetleri.',
     image: 'https://bgs.io/assets/twitter-image.png',
@@ -67,34 +67,36 @@ const metadata = {
 <Layout metadata={metadata}>
   <!-- Hero Widget ******************* -->
 
-  <Hero
-    actions={[
-      {
-        variant: 'primary',
-        text: 'İletişime Geç ',
-        href: '/contact',
-        icon: 'tabler:mail-forward',
-      },
-      {
-        text: 'Detaylı Bilgi',
-        href: '#features',
-        icon: 'tabler:circle-chevron-right',
-      },
-    ]}
-  >
-    <Fragment slot="title">
-      <span class="text-accent dark:text-white">BGS</span> Yazılım Ajansı ile Türkiye genelinde modern ve profesyonel
-      çözümler.
-    </Fragment>
-    <Fragment slot="subtitle">
-      <span class="hidden sm:inline">
-        <span class="font-semibold">BGS</span>, özel yazılım geliştirme, web tasarım ve dijital dönüşüm alanlarında
-        Sakarya, İstanbul, Kayseri ve Türkiye'nin her yerinde hizmetinizde.</span
-      >
-      <span class="block mb-1 sm:hidden font-bold text-blue-600">BGS: Profesyonel Yazılım Ajansı.</span>
-      Küçük işletmelerden büyük firmalara kadar her ölçek için çözümler.
-    </Fragment>
-  </Hero>
+<Hero
+  actions={[
+    {
+      variant: 'primary',
+      text: 'İletişime Geç',
+      href: '/iletisim',
+      icon: 'tabler:mail-forward',
+    },
+    {
+      text: 'Detaylı Bilgi',
+      href: '#features',
+      icon: 'tabler:circle-chevron-right',
+    },
+  ]}
+>
+<Fragment slot="title">
+  <span class="text-accent dark:text-white">BGS</span> Türkiye'nin dijital çözüm ortağı.
+</Fragment>
+<Fragment slot="subtitle">
+  <span class="hidden sm:inline">
+    Yenilikçi yazılım çözümleri ve dijital dönüşüm hizmetleri ile iş süreçlerinizi kolaylaştırır, verimliliğinizi artırır ve rekabette öne çıkmanızı sağlar.
+  </span>
+  <span class="block mb-1 sm:hidden font-bold text-blue-600">
+    BGS: Dijitalde Gücünüz.
+  </span>
+  Küçük işletmelerden büyük şirketlere kadar her büyüklüğe ve sektöre uygun, ölçeklenebilir çözümler sunuyoruz.
+</Fragment>
+
+
+</Hero>
 
   <!-- Note Widget ******************* -->
 
@@ -102,52 +104,49 @@ const metadata = {
 
   <!-- Features Widget *************** -->
 
-  <Features
-    id="features"
-    tagline="Özellikler"
-    title="BGS ile Neler Sunuyoruz"
-    subtitle="Piyasadaki en kapsamlı ve profesyonel yazılım çözümlerinden biri. Türkiye genelinde tercih edilen ajans."
-    items={[
-      {
-        title: 'Astro + Tailwind CSS Entegrasyonu',
-        description: 'İki güçlü teknolojinin entegrasyonu ile yüksek verimlilik, performans ve esneklik sağlanır.',
-        icon: 'tabler:brand-tailwind',
-      },
-      {
-        title: 'Hazır Kullanım Bileşenleri',
-        description:
-          'Web siteleri, SaaS projeleri, bloglar, kurumsal profiller için Tailwind CSS ile hazırlanmış hazır widgetlar.',
-        icon: 'tabler:components',
-      },
-      {
-        title: 'En İyi Uygulamalar',
-        description:
-          'Güvenli, etkili ve kullanıcı dostu web siteleri oluşturmak için modern standartlar ve yaklaşımlar.',
-        icon: 'tabler:list-check',
-      },
-      {
-        title: 'Mükemmel Sayfa Hızı',
-        description:
-          'Organik arama sıralamasını yükselten, kullanıcı deneyimini iyileştiren ve dönüşüm oranlarını artıran hız.',
-        icon: 'tabler:rocket',
-      },
-      {
-        title: 'Arama Motoru Optimizasyonu (SEO)',
-        description: 'Web sitenizin görünürlüğünü artırarak, daha fazla organik trafik çekmenize olanak sağlar.',
-        icon: 'tabler:arrows-right-left',
-      },
-      {
-        title: 'Yeni Fikir ve Katkılara Açık',
-        description:
-          'Yenilikçi ve iş birliğine açık bir kültürle sürekli gelişmeyi ve kullanıcı deneyimini artırmayı hedefler.',
-        icon: 'tabler:bulb',
-      },
-    ]}
-  />
+<Features
+  id="features"
+  tagline="Özellikler"
+  title="BGS ile Neler Sunuyoruz"
+  subtitle="Mobil uygulamalardan güvenlik sistemlerine kadar geniş bir hizmet yelpazesi."
+  items={[
+    {
+      title: 'Mobil ve Sektörel Uygulama Geliştirme',
+      description: 'Şirketiniz ve sektörünüze özel mobil uygulamalarla iş süreçlerinizi dijitalleştirin.',
+      icon: 'tabler:phone',
+    },
+    {
+      title: 'Platform Bağımsız Yazılım Çözümleri',
+      description: 'Linux, Windows, macOS, Android ve iOS platformlarında çalışabilen yazılımlar geliştirilir.',
+      icon: 'tabler:code',
+    },
+    {
+      title: 'Donanım Geliştirme ve Entegrasyon',
+      description: 'Özel donanım çözümleri ve cihaz entegrasyonları ile iş süreçlerinizi optimize edin.',
+      icon: 'tabler:cpu',
+    },
+    {
+      title: 'Sunucu ve Sistem Yönetimi',
+      description: 'Sunucu kurulumu, bakımı ve yönetimi ile sistemlerinizin güvenliğini sağlayın.',
+      icon: 'tabler:server',
+    },
+    {
+      title: 'Güvenlik Sistemleri ve İzleme',
+      description: 'Geçiş kontrol, alarm ve kamera sistemleri ile güvenliğinizi artırın.',
+      icon: 'tabler:shield-check',
+    },
+    {
+      title: 'AR-GE ve Yenilikçi Çözümler',
+      description: 'Sürekli gelişim ve yenilikçi çözümlerle iş süreçlerinizi iyileştirin.',
+      icon: 'tabler:bulb',
+    },
+  ]}
+/>
+
 
   <!-- Content Widget **************** -->
   <Content
-      id="urunlerimiz"
+      id="hizmetlerimiz"
   isReversed
   tagline="Eysis"
   title="Eysis Modüler Eğitim Yönetimi"
@@ -310,7 +309,7 @@ image={{
       {
         title: 'Neden BGS?',
         description:
-          'BGS, müşterilerine güvenilir ve etkili çözümler sunmayı amaçlayan bir yazılım ajansıdır. Uzman kadromuzla her ihtiyaca uygun projeler geliştiriyoruz.',
+          'BGS, müşterilerine güvenilir ve etkili çözümler sunmayı amaçlayan bir yazılım dır. Uzman kadromuzla her ihtiyaca uygun projeler geliştiriyoruz.',
       },
       {
         title: 'Başlamak için teknik bilgi gerekli mi?',

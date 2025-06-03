@@ -5,7 +5,7 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 _Son güncelleme: 26 Mayıs 2025_
 
-Bu Gizlilik Politikası, BGS Yazılım Ajansı'nın kullanıcılarından topladığı bilgileri nasıl işlediğini açıklar. Hizmetlerimizi kullanarak bu politikayı kabul etmiş sayılırsınız.
+Bu Gizlilik Politikası, BGS Yazılım 'nın kullanıcılarından topladığı bilgileri nasıl işlediğini açıklar. Hizmetlerimizi kullanarak bu politikayı kabul etmiş sayılırsınız.
 
 ---
 
@@ -92,7 +92,7 @@ Bu gizlilik politikası zaman zaman güncellenebilir. Güncellemeler bu sayfa ü
 
 Bu politika veya kişisel verilerinizle ilgili sorularınız için bizimle iletişime geçebilirsiniz:
 
-**BGS Yazılım Ajansı**  
+##### BGS | Bireysel Gelişim Sistemleri  
 E-posta: [info@bgs.io](mailto:info@bgs.io)  
 Web: [www.bgs.io](https://www.bgs.io)
 

@@ -5,7 +5,7 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 _Son güncelleme: 26 Mayıs 2025_
 
-Bu Kullanım Şartları, BGS Yazılım Ajansı tarafından sunulan web sitesi ve hizmetlerin kullanım koşullarını açıklar. Web sitemizi veya hizmetlerimizi kullanarak bu şartları kabul etmiş sayılırsınız.
+Bu Kullanım Şartları, BGS Yazılım  tarafından sunulan web sitesi ve hizmetlerin kullanım koşullarını açıklar. Web sitemizi veya hizmetlerimizi kullanarak bu şartları kabul etmiş sayılırsınız.
 
 ---
 
@@ -59,7 +59,7 @@ Bu şartlar Türkiye Cumhuriyeti yasalarına tabidir. Taraflar, doğabilecek uyu
 
 Bu şartlar veya hizmetlerimiz hakkında sorularınız varsa bizimle iletişime geçebilirsiniz:
 
-**BGS Yazılım Ajansı**  
+##### BGS | Bireysel Gelişim Sistemleri  
 E-posta: [info@bgs.io](mailto:info@bgs.io)  
 Web: [www.bgs.io](https://www.bgs.io)
 

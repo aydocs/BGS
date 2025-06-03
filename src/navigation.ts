@@ -3,7 +3,7 @@ import { getPermalink } from './utils/permalinks';
 export const headerData = {
   links: [
     { text: 'Ana Sayfa', href: '/' },
-    { text: 'Ürünlerimiz', href: getPermalink('/#urunlerimiz') },
+    { text: 'Hizmetlerimiz', href: getPermalink('/#hizmetlerimiz') },
 
     {
       text: 'Blog',
@@ -11,7 +11,7 @@ export const headerData = {
         { text: 'Genel', href: getPermalink('/blog') },
         { text: 'Siber Güvenlik', href: getPermalink('/category/siber-guvenlik') },
         { text: 'Yazılım Geliştirme', href: getPermalink('/category/yazilim-gelistirme') },
-        { text: 'Yazılım Güvenliği', href: getPermalink('/category/yazilim-guvenligi' ) },
+        { text: 'Yazılım Güvenliği', href: getPermalink('/category/yazilim-guvenligi') },
       ],
     },
     {
@@ -42,18 +42,19 @@ export const footerData = {
       title: 'Menü',
       links: [
         { text: 'Ana Sayfa', href: getPermalink('/') },
+        { text: 'Hizmetlerimiz', href: getPermalink('/#hizmetlerimiz') },
         { text: 'Blog', href: getPermalink('/blog') },
         { text: 'Hakkımızda', href: getPermalink('/about') },
         { text: 'İletişim', href: getPermalink('/contact') },
       ],
     },
-        {
+    {
       title: 'Blog',
       links: [
         { text: 'Genel', href: getPermalink('/blog') },
         { text: 'Siber Güvenlik', href: getPermalink('/category/siber-guvenlik') },
         { text: 'Yazılım Geliştirme', href: getPermalink('/category/yazilim-gelistirme') },
-        { text: 'Yazılım Güvenliği', href: getPermalink('/category/yazilim-guvenligi' ) },
+        { text: 'Yazılım Güvenliği', href: getPermalink('/category/yazilim-guvenligi') },
       ],
     },
     {
@@ -78,11 +79,11 @@ export const footerData = {
     { text: 'Gizlilik Politikası', href: getPermalink('/privacy') },
   ],
   socialLinks: [
-    { ariaLabel: 'X', icon: 'tabler:brand-x', href: 'https://twitter.com/BGSyazilim' },
-    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://instagram.com/BGSyazilim' },
-    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: 'https://facebook.com/BGSyazilim' },
+    { ariaLabel: 'X', icon: 'tabler:brand-x', href: 'https://twitter.com/bgs' },
+    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://instagram.com/bgs' },
+    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: 'https://facebook.com/bgs' },
   ],
   footNote: `
-    Made by <a class="text-blue-600 underline dark:text-muted" href="https://bgs.io/">BGS Yazılım</a> · Tüm hakları saklıdır.
+    Made by <a class="text-purple-600 dark:text-muted no-underline" href="https://bgs.io/">BGS</a> · Tüm hakları saklıdır.
   `,
 };
