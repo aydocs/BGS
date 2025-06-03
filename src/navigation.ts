@@ -9,11 +9,19 @@ export const headerData = {
       text: 'Blog',
       links: [
         { text: 'Genel', href: getPermalink('/blog') },
+        { text: 'Yazılım Mühendisliği', href: getPermalink('/category/yazilim-muhendisligi') },
+        { text: 'Algoritmalar', href: getPermalink('/category/algoritmalar') },
+        { text: 'Bulut', href: getPermalink('/category/bulut') },
         { text: 'Siber Güvenlik', href: getPermalink('/category/siber-guvenlik') },
+        { text: 'Performans', href: getPermalink('/category/performans') },
         { text: 'Yazılım Geliştirme', href: getPermalink('/category/yazilim-gelistirme') },
+        { text: 'Yazılım', href: getPermalink('/category/yazilim') },
+        { text: 'Veri Bilimi', href: getPermalink('/category/veri-bilimi') },
+        { text: 'Yapay Zeka', href: getPermalink('/category/yapay-zeka') },
         { text: 'Yazılım Güvenliği', href: getPermalink('/category/yazilim-guvenligi') },
       ],
     },
+    /*
     {
       text: 'Sayfalar',
       links: [
@@ -25,6 +33,7 @@ export const headerData = {
         { text: 'Referanslar', href: getPermalink('/testimonials') },
       ],
     },
+    */
     {
       text: 'Yasal',
       links: [
@@ -52,11 +61,19 @@ export const footerData = {
       title: 'Blog',
       links: [
         { text: 'Genel', href: getPermalink('/blog') },
+        { text: 'Yazılım Mühendisliği', href: getPermalink('/category/yazilim-muhendisligi') },
+        { text: 'Algoritmalar', href: getPermalink('/category/algoritmalar') },
+        { text: 'Bulut', href: getPermalink('/category/bulut') },
         { text: 'Siber Güvenlik', href: getPermalink('/category/siber-guvenlik') },
+        { text: 'Performans', href: getPermalink('/category/performans') },
         { text: 'Yazılım Geliştirme', href: getPermalink('/category/yazilim-gelistirme') },
+        { text: 'Yazılım', href: getPermalink('/category/yazilim') },
+        { text: 'Veri Bilimi', href: getPermalink('/category/veri-bilimi') },
+        { text: 'Yapay Zeka', href: getPermalink('/category/yapay-zeka') },
         { text: 'Yazılım Güvenliği', href: getPermalink('/category/yazilim-guvenligi') },
       ],
     },
+    /*
     {
       title: 'Sayfalar',
       links: [
@@ -65,7 +82,8 @@ export const footerData = {
         { text: 'Fiyatlandırma', href: getPermalink('/pricing') },
         { text: 'Referanslar', href: getPermalink('/testimonials') },
       ],
-    },
+    }
+    */
     {
       title: 'Yasal',
       links: [

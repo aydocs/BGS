@@ -45,12 +45,12 @@ apps:
         index: true
     category:
       isEnabled: true
-      pathname: 'kategori'
+      pathname: 'category'
       robots:
         index: true
     tag:
       isEnabled: true
-      pathname: 'etiket'
+      pathname: 'tag'
       robots:
         index: false
     isRelatedPostsEnabled: true
