@@ -3,6 +3,8 @@ import { getPermalink } from './utils/permalinks';
 export const headerData = {
   links: [
     { text: 'Ana Sayfa', href: '/' },
+    { text: 'Ürünlerimiz', href: getPermalink('/#urunlerimiz') },
+
     {
       text: 'Blog',
       links: [
@@ -76,11 +78,11 @@ export const footerData = {
     { text: 'Gizlilik Politikası', href: getPermalink('/privacy') },
   ],
   socialLinks: [
-    { ariaLabel: 'X', icon: 'tabler:brand-x', href: 'https://twitter.com/emadocsyazilim' },
-    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://instagram.com/emadocsyazilim' },
-    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: 'https://facebook.com/emadocsyazilim' },
+    { ariaLabel: 'X', icon: 'tabler:brand-x', href: 'https://twitter.com/BGSyazilim' },
+    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://instagram.com/BGSyazilim' },
+    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: 'https://facebook.com/BGSyazilim' },
   ],
   footNote: `
-    Made by <a class="text-blue-600 underline dark:text-muted" href="https://emadocs.com/">EmaDocs Yazılım</a> · Tüm hakları saklıdır.
+    Made by <a class="text-blue-600 underline dark:text-muted" href="https://bgs.io/">BGS Yazılım</a> · Tüm hakları saklıdır.
   `,
 };

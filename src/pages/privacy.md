@@ -5,7 +5,7 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 _Son güncelleme: 26 Mayıs 2025_
 
-Bu Gizlilik Politikası, Emadocs Yazılım Ajansı'nın kullanıcılarından topladığı bilgileri nasıl işlediğini açıklar. Hizmetlerimizi kullanarak bu politikayı kabul etmiş sayılırsınız.
+Bu Gizlilik Politikası, BGS Yazılım Ajansı'nın kullanıcılarından topladığı bilgileri nasıl işlediğini açıklar. Hizmetlerimizi kullanarak bu politikayı kabul etmiş sayılırsınız.
 
 ---
 
@@ -66,7 +66,7 @@ Kişisel verilerinizle ilgili olarak KVKK kapsamında aşağıdaki haklara sahip
 - Düzeltme ve silme talep etme  
 - İşlenmesine itiraz etme  
 
-Talepleriniz için: [info@emadocs.com](mailto:info@emadocs.com)
+Talepleriniz için: [info@bgs.io](mailto:info@bgs.io)
 
 ---
 
@@ -78,7 +78,7 @@ Hizmetlerimiz 13 yaş altındaki bireylere yönelik değildir ve bu yaş grubund
 
 ## Dış Bağlantılar
 
-Web sitemiz üzerinden başka sitelere bağlantılar verilebilir. Bu sitelerin gizlilik politikalarından Emadocs sorumlu değildir.
+Web sitemiz üzerinden başka sitelere bağlantılar verilebilir. Bu sitelerin gizlilik politikalarından BGS sorumlu değildir.
 
 ---
 
@@ -92,10 +92,10 @@ Bu gizlilik politikası zaman zaman güncellenebilir. Güncellemeler bu sayfa ü
 
 Bu politika veya kişisel verilerinizle ilgili sorularınız için bizimle iletişime geçebilirsiniz:
 
-**Emadocs Yazılım Ajansı**  
-E-posta: [info@emadocs.com](mailto:info@emadocs.com)  
-Web: [www.emadocs.com](https://www.emadocs.com)
+**BGS Yazılım Ajansı**  
+E-posta: [info@bgs.io](mailto:info@bgs.io)  
+Web: [www.bgs.io](https://www.bgs.io)
 
 ---
 
-© 2025 Emadocs. Tüm hakları saklıdır.
+© 2025 BGS. Tüm hakları saklıdır.

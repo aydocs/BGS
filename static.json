@@ -1,5 +1,5 @@
 {
   "source": "/(.*)",
-  "has": [{ "type": "host", "value": "blog.emadocs.com" }],
+  "has": [{ "type": "host", "value": "blog.bgs.io" }],
   "destination": "/blog/$1"
 }

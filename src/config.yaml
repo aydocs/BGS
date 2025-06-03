@@ -1,6 +1,6 @@
 site:
-  name: EmaDocs
-  site: 'https://emadocs.com'
+  name: BGS
+  site: 'https://bgs.io'
   base: '/'
   trailingSlash: false
 
@@ -9,14 +9,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: EmaDocs
-    template: '%s — EmaDocs'
+    default: BGS
+    template: '%s — BGS'
   description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: EmaDocs
+    site_name: BGS
     images:
       - url: '~/assets/images/default.png'
         width: 1200

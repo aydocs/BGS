@@ -18,7 +18,7 @@
       "has": [
         {
           "type": "host",
-          "value": "blog.emadocs.com"
+          "value": "blog.bgs.io"
         }
       ],
       "destination": "/blog/$1"
@@ -28,7 +28,7 @@
       "has": [
         {
           "type": "host",
-          "value": "sss.emadocs.com"
+          "value": "sss.bgs.io"
         }
       ],
       "destination": "/sss/$1"

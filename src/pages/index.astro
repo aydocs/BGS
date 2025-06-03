@@ -11,13 +11,15 @@ import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
+import eysisImage from 'src/assets/images/eysis.jpg';
+import matrisImage from 'src/assets/images/matris.jpg';
 
 const metadata = {
   title:
-    'EmaDocs Yazılım Ajansı | Sakarya, İstanbul, Kayseri ve Türkiye Geneli Özel Yazılım, Web Tasarım & Dijital Çözümler',
+    'BGS Yazılım Ajansı | Sakarya, İstanbul, Kayseri ve Türkiye Geneli Özel Yazılım, Web Tasarım & Dijital Çözümler',
   ignoreTitleTemplate: true,
   description:
-    'EmaDocs Yazılım Ajansı olarak Sakarya, İstanbul, Kayseri ve Türkiye genelinde; özel yazılım geliştirme, web tasarım, mobil uygulama geliştirme ve dijital pazarlama hizmetleri sunuyoruz. Projelerinizi dijitalde güçlendirmek için bizimle iletişime geçin.',
+    'BGS Yazılım Ajansı olarak Sakarya, İstanbul, Kayseri ve Türkiye genelinde; özel yazılım geliştirme, web tasarım, mobil uygulama geliştirme ve dijital pazarlama hizmetleri sunuyoruz. Projelerinizi dijitalde güçlendirmek için bizimle iletişime geçin.',
   keywords: [
     'yazılım ajansı',
     'web tasarım hizmetleri',
@@ -27,34 +29,34 @@ const metadata = {
     'Sakarya yazılım ajansı',
     'İstanbul yazılım ajansı',
     'Kayseri yazılım çözümleri',
-    'EmaDocs dijital çözümler',
+    'BGS dijital çözümler',
     'SEO hizmetleri',
     'e-ticaret çözümleri',
     'kurumsal yazılım',
   ],
-  author: 'EmaDocs Yazılım Ajansı',
+  author: 'BGS Yazılım Ajansı',
   robots: 'index, follow',
-  canonical: 'https://emadocs.com',
+  canonical: 'https://bgs.io',
   viewport: 'width=device-width, initial-scale=1, shrink-to-fit=no',
   charset: 'utf-8',
   og: {
-    title: 'EmaDocs Yazılım Ajansı | Türkiye Geneli Yazılım ve Dijital Çözümler',
+    title: 'BGS Yazılım Ajansı | Türkiye Geneli Yazılım ve Dijital Çözümler',
     description:
       'Profesyonel yazılım, web tasarım ve dijital pazarlama hizmetleri ile projelerinizi dijitalde bir üst seviyeye taşıyoruz.',
-    url: 'https://emadocs.com',
-    image: 'https://emadocs.com/assets/og-image.png',
+    url: 'https://bgs.io',
+    image: 'https://bgs.io/assets/og-image.png',
     type: 'website',
     locale: 'tr_TR',
-    site_name: 'EmaDocs Yazılım Ajansı',
+    site_name: 'BGS Yazılım Ajansı',
   },
   twitter: {
     card: 'summary_large_image',
-    site: '@emadocs',
-    creator: '@emadocs',
-    title: 'EmaDocs Yazılım Ajansı',
+    site: '@BGS',
+    creator: '@BGS',
+    title: 'BGS Yazılım Ajansı',
     description:
       'Sakarya, İstanbul, Kayseri ve Türkiye geneline özel yazılım, web tasarım ve dijital pazarlama hizmetleri.',
-    image: 'https://emadocs.com/assets/twitter-image.png',
+    image: 'https://bgs.io/assets/twitter-image.png',
   },
   favicon: '/images/favicon.png',
 };
@@ -77,18 +79,17 @@ const metadata = {
         icon: 'tabler:circle-chevron-right',
       },
     ]}
-    image={{ src: '~/assets/images/hero-image.png', alt: 'EmaDocs Hero Görseli' }}
   >
     <Fragment slot="title">
-      <span class="text-accent dark:text-white">Emadocs</span> Yazılım Ajansı ile Türkiye genelinde modern ve profesyonel
+      <span class="text-accent dark:text-white">BGS</span> Yazılım Ajansı ile Türkiye genelinde modern ve profesyonel
       çözümler.
     </Fragment>
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        <span class="font-semibold">EmaDocs</span>, özel yazılım geliştirme, web tasarım ve dijital dönüşüm alanlarında
+        <span class="font-semibold">BGS</span>, özel yazılım geliştirme, web tasarım ve dijital dönüşüm alanlarında
         Sakarya, İstanbul, Kayseri ve Türkiye'nin her yerinde hizmetinizde.</span
       >
-      <span class="block mb-1 sm:hidden font-bold text-blue-600">EmaDocs: Profesyonel Yazılım Ajansı.</span>
+      <span class="block mb-1 sm:hidden font-bold text-blue-600">BGS: Profesyonel Yazılım Ajansı.</span>
       Küçük işletmelerden büyük firmalara kadar her ölçek için çözümler.
     </Fragment>
   </Hero>
@@ -102,7 +103,7 @@ const metadata = {
   <Features
     id="features"
     tagline="Özellikler"
-    title="EmaDocs ile Neler Sunuyoruz"
+    title="BGS ile Neler Sunuyoruz"
     subtitle="Piyasadaki en kapsamlı ve profesyonel yazılım çözümlerinden biri. Türkiye genelinde tercih edilen ajans."
     items={[
       {
@@ -143,215 +144,152 @@ const metadata = {
   />
 
   <!-- Content Widget **************** -->
-
   <Content
-    isReversed
-    tagline="Şablon Hakkında"
-    title="EmaDocs’un Temeli: Eğlence ve Fonksiyonellik Bir Arada!"
-    items={[
-      {
-        title: 'Astro 5.0 Üzerine İnşa Edildi',
-        description: 'Modern, hızlı ve geliştirici dostu statik site üreticisinin avantajlarından faydalanır.',
-      },
-      {
-        title: 'Tailwind CSS ile Stil Verildi',
-        description: 'Popüler utility-first CSS framework ile hızlı tasarım ve tutarlı stil sunar.',
-      },
-      {
-        title: 'Tarayıcılar Arası Uyumluluk',
-        description: 'Web sitenizin tüm tarayıcılarda tutarlı görünmesini ve sorunsuz çalışmasını sağlar.',
-      },
-    ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80',
-      alt: 'Renkli Görsel',
-    }}
-  >
-    <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
-        Modern Temeller Üzerinde İnşa Edildi
-      </h3>
-      Sektörde öne çıkmak için en iyi uygulamalarla donatıldı.
-    </Fragment>
+      id="urunlerimiz"
+  isReversed
+  tagline="Eysis"
+  title="Eysis Modüler Eğitim Yönetimi"
+  items={[
+    {
+      title: 'Eysis Modüler Eğitim Yönetimi',
+      description: 'Bgs İnteraktif A.Ş. olarak uzun süredir geliştirmekte olduğumuz Eysis Modüler Eğitim Yönetim Sistemi, eğitim alanındaki dijital ihtiyaçlara kapsamlı çözümler sunar.',
+    },
+    {
+      title: 'Tüm Süreçler Tek Platformda',
+      description: 'Öğrenci takibi, ders planlaması, sınav yönetimi ve detaylı raporlamaları tek bir sistem üzerinden kolayca yönetebilirsiniz.',
+    },
+    {
+      title: 'Modüler ve Esnek Yapı',
+      description: 'Kuruma özel ihtiyaçlara göre uyarlanabilen modülleri sayesinde, farklı eğitim yapıları için esnek çözümler sağlar.',
+    },
+    {
+      title: 'Kullanıcı Dostu Arayüz',
+      description: 'Sade ve anlaşılır tasarımı sayesinde yönetici, öğretmen ve öğrenci rolleri için kolay kullanım sunar.',
+    },
+    {
+      title: 'İletişime Geçin',
+      description: 'Siz de Eysis’i kurumunuzda kullanmak ve detaylı bilgi almak için bizimle iletişime geçebilirsiniz.',
+    },
+  ]}
+image={{
+  src: eysisImage,
+  alt: 'Eysis Görseli',
+}}
 
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </Content>
+
+/>
+
 
   <!-- Content Widget **************** -->
+<Content
+  isAfterContent
+  items={[
+        {
+      title: 'Yeni Nesil Ön Muhasebe Programı',
+      description: 'Küçük ve orta ölçekli işletmeler için kullanıcı dostu, modüler ve bulut tabanlı finansal çözüm.',
+    },
+    {
+      title: 'Fatura & Gelir-Gider Takibi',
+      description: 'Gelir ve giderlerinizi kolayca yönetin, finansal durumunuzu anlık olarak takip edin.',
+    },
+    {
+      title: 'Stok & Sipariş Yönetimi',
+      description: 'Stoklarınızı etkili şekilde yönetin, sipariş süreçlerini otomatikleştirin.',
+    },
+    {
+      title: 'E-Fatura ve E-Arşiv',
+      description: 'Yasal uyumluluğa uygun şekilde fatura ve arşiv işlemlerinizi dijitalleştirin.',
+    },
+    {
+      title: 'Kapsamlı Raporlama',
+      description: 'Finansal verilerinizi detaylı raporlarla analiz edin, doğru kararlar alın.',
+    },
+  ]}
+  image={{
+    src: matrisImage,
+    alt: 'Muhasebe Programı Görseli',
+  }}
+>
+</Content>
 
-  <Content
-    isAfterContent
-    items={[
-      {
-        title: 'Yüksek Özelleştirme Seviyesi',
-        description: `Markanızın kimliğine ve ihtiyaçlarına göre şablonu kolayca uyarlayabilir, zamandan tasarruf edebilirsiniz.`,
-      },
-      {
-        title: 'Çoklu Düzen Seçenekleri',
-        description:
-          'İçeriğinizi en iyi şekilde sunacak farklı düzen alternatiflerini keşfedin, kullanıcı deneyimini artırın.',
-      },
-      {
-        title: 'Tamamen Duyarlı Tasarım',
-        description: 'Farklı cihaz ve ekran boyutlarında mükemmel performans ve tutarlı kullanıcı deneyimi sağlar.',
-      },
-      {
-        title: 'Medya Entegrasyonu',
-        description: 'İçeriğinizi zenginleştiren resim, video ve diğer medya öğelerini kolayca entegre edin.',
-      },
-    ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1600132806370-bf17e65e942f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2194&q=80',
-      alt: 'Plan Görseli',
-    }}
-  >
-    <Fragment slot="content">Online varlığınızın sizi tam olarak temsil etmesini sağlayın.</Fragment>
+<Content
+  isReversed
+  isAfterContent
+  items={[
+    {
+      title: 'Artan Kullanıcı Etkileşimi',
+      description:
+        'Etkileşimli öğeler, sezgisel navigasyon ve görsel açıdan çekici düzenlerle ziyaretçilerinizi uzun süre sitenizde tutun.',
+    },
+    {
+      title: 'Sürekli Gelişim',
+      description:
+        'Web sitenizin en güncel trendler ve teknolojilerle uyumlu kalması için düzenli güncellemeler sunar.',
+    },
+    {
+      title: 'Zaman ve Kaynak Tasarrufu',
+      description:
+        'Web sitesini sıfırdan oluşturmanın zahmetinden kurtulun, Eysis ile dijital varlığınızı hızla başlatın.',
+    },
+    {
+      title: 'Topluluk Desteği',
+      description:
+        'Eysis topluluğuna katılarak bilgi, kaynak ve destek alabilir, gelişim yolculuğunuzda yalnız kalmazsınız.',
+    },
+  ]}
+  image={{
+    src: eysisImage,
+    alt: 'Astronotlar Görseli',
+  }}
+>
+  <Fragment slot="content">Büyüme ve başarı için tasarlandı.</Fragment>
 
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </Content>
+  <Fragment slot="bg">
+    <div className="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+  </Fragment>
+</Content>
 
-  <!-- Content Widget **************** -->
+<Steps
+  title="Hayalinizdeki web sitesini Eysis ile kısa sürede hayata geçirin."
+  items={[
+    {
+      title: 'Adım 1: <span class="font-medium">İletişime Geçin</span>',
+      description:
+        'Bize ulaşarak projenizi anlatın. İhtiyacınıza uygun çözümleri birlikte planlayalım ve ilk adımı atalım.',
+      icon: 'tabler:message-2',
+    },
+    {
+      title: 'Adım 2: <span class="font-medium">İçeriğinizi Paylaşın</span>',
+      description:
+        'Markanızı yansıtan görseller, metinler ve içerikleri bize iletin. Dijital kimliğinizin temellerini birlikte atalım.',
+      icon: 'tabler:photo-edit',
+    },
+    {
+      title: 'Adım 3: <span class="font-medium">Tasarımı Özelleştirin</span>',
+      description:
+        'Renklerden yazı tipine, sayfa yapısından kullanıcı deneyimine kadar tüm detayları isteğinize göre tasarlıyoruz.',
+      icon: 'tabler:brush',
+    },
+    {
+      title: 'Hazır!',
+      description:
+        'Test ve onay süreci sonrası web siteniz yayında. Artık hedef kitlenizle profesyonel bir dijital ortamda buluşabilirsiniz.',
+      icon: 'tabler:check',
+    },
+  ]}
+  image={{
+    src: eysisImage,
+    alt: 'Web Tasarım Süreci Görseli',
+  }}
+/>
 
-  <Content
-    isReversed
-    isAfterContent
-    items={[
-      {
-        title: 'Artan Kullanıcı Etkileşimi',
-        description:
-          'Etkileşimli öğeler, sezgisel navigasyon ve görsel açıdan çekici düzenlerle ziyaretçilerinizi uzun süre sitenizde tutun.',
-      },
-      {
-        title: 'Sürekli Gelişim',
-        description:
-          'Web sitenizin en güncel trendler ve teknolojilerle uyumlu kalması için düzenli güncellemeler sunar.',
-      },
-      {
-        title: 'Zaman ve Kaynak Tasarrufu',
-        description:
-          'Web sitesini sıfırdan oluşturmanın zahmetinden kurtulun, EmaDocs ile dijital varlığınızı hızla başlatın.',
-      },
-      {
-        title: 'Topluluk Desteği',
-        description: `EmaDocs topluluğuna katılarak bilgi, kaynak ve destek alabilir, gelişim yolculuğunuzda yalnız kalmazsınız.`,
-      },
-    ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1611462985358-60d3498e0364?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80',
-      alt: 'Astronotlar Görseli',
-    }}
-  >
-    <Fragment slot="content">Büyüme ve başarı için tasarlandı.</Fragment>
 
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </Content>
-
-  <!-- Steps Widget ****************** -->
-
-  <Steps
-    title="Hayalinizdeki web sitesini EmaDocs ile kısa sürede hayata geçirin."
-    items={[
-      {
-        title: 'Adım 1: <span class="font-medium">İletişime Geçin</span>',
-        description:
-          'Bize ulaşarak projenizi anlatın. İhtiyacınıza uygun çözümleri birlikte planlayalım ve ilk adımı atalım.',
-        icon: 'tabler:message-2',
-      },
-      {
-        title: 'Adım 2: <span class="font-medium">İçeriğinizi Paylaşın</span>',
-        description:
-          'Markanızı yansıtan görseller, metinler ve içerikleri bize iletin. Dijital kimliğinizin temellerini birlikte atalım.',
-        icon: 'tabler:photo-edit',
-      },
-      {
-        title: 'Adım 3: <span class="font-medium">Tasarımı Özelleştirin</span>',
-        description:
-          'Renklerden yazı tipine, sayfa yapısından kullanıcı deneyimine kadar tüm detayları isteğinize göre tasarlıyoruz.',
-        icon: 'tabler:brush',
-      },
-      {
-        title: 'Hazır!',
-        description:
-          'Test ve onay süreci sonrası web siteniz yayında. Artık hedef kitlenizle profesyonel bir dijital ortamda buluşabilirsiniz.',
-        icon: 'tabler:check',
-      },
-    ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1616198814651-e71f960c3180?ixlib=rb-4.0.3&auto=format&fit=crop&w=987&q=80',
-      alt: 'Web Tasarım Süreci Görseli',
-    }}
-  />
-
-  <!-- Features2 Widget ************** -->
-
-  <Features2
-    title="En Çok Kullanılan Bileşenler"
-    subtitle="Tailwind CSS ile web sitesi oluşturmak için sık kullanılan bileşenler"
-    tagline="Bileşenler"
-    items={[
-      {
-        title: 'Başlıklar',
-        description: 'Navigasyon için vazgeçilmez, web sitelerinde yol gösterici görevi görür.',
-        icon: 'flat-color-icons:template',
-      },
-      {
-        title: 'Hero Bölümleri',
-        description: 'Süper kahraman gibi etkileyici açılışlar sağlar, ziyaretçilerin dikkatini çeker.',
-        icon: 'flat-color-icons:gallery',
-      },
-      {
-        title: 'Özellikler',
-        description: 'Web sitenizin güçlü yanlarını ve sunduğu avantajları sergiler.',
-        icon: 'flat-color-icons:approval',
-      },
-      {
-        title: 'İçerik',
-        description: 'Sitenin temelini oluşturur; ziyaretçiye değerli bilgi sunar.',
-        icon: 'flat-color-icons:document',
-      },
-      {
-        title: 'Call-to-Action',
-        description: 'Ziyaretçiyi harekete geçiren teşvik edici buton ve çağrılar.',
-        icon: 'flat-color-icons:advertising',
-      },
-      {
-        title: 'Fiyatlandırma',
-        description: 'Hizmet veya ürün seçeneklerini cazip biçimde sunar.',
-        icon: 'flat-color-icons:currency-exchange',
-      },
-      {
-        title: 'Referanslar',
-        description: 'Diğer kullanıcıların deneyimlerini paylaşır.',
-        icon: 'flat-color-icons:voice-presentation',
-      },
-      {
-        title: 'İletişim',
-        description: 'Ziyaretçilerin size kolayca ulaşmasını sağlar.',
-        icon: 'flat-color-icons:business-contact',
-      },
-      {
-        title: 'Altbilgi',
-        description: 'Sayfanın sonunda ek bilgiler ve bağlantılar içerir.',
-        icon: 'flat-color-icons:database',
-      },
-    ]}
-  >
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </Features2>
 
   <!-- HighlightedPosts Widget ******* -->
 
   <BlogLatestPosts
     title="Blogumuzda Daha Fazla İçerik Keşfedin"
-    information={`EmaDocs Blog, yazılım geliştirme, proje yönetimi ve dijital çözümler üzerine düşünülmüş içerikler sunar.<br />
+    information={`BGS Blog, yazılım geliştirme, proje yönetimi ve dijital çözümler üzerine düşünülmüş içerikler sunar.<br />
   <br />
   Her makalemizde, sektörde edindiğimiz deneyimleri ve güncel teknolojik gelişmeleri anlaşılır bir dille paylaşmayı amaçlıyoruz.<br />
   `}
@@ -361,14 +299,14 @@ const metadata = {
 
   <FAQs
     title="Sıkça Sorulan Sorular"
-    subtitle="EmaDocs'in sunduğu güçlü özellikleri ve web geliştirme yolculuğunuzu nasıl kolaylaştıracağını öğrenmek için aşağıdaki sorulara göz atın."
+    subtitle="BGS'in sunduğu güçlü özellikleri ve web geliştirme yolculuğunuzu nasıl kolaylaştıracağını öğrenmek için aşağıdaki sorulara göz atın."
     tagline="SSS"
     classes={{ container: 'max-w-6xl' }}
     items={[
       {
-        title: 'Neden EmaDocs?',
+        title: 'Neden BGS?',
         description:
-          'EmaDocs, müşterilerine güvenilir ve etkili çözümler sunmayı amaçlayan bir yazılım ajansıdır. Uzman kadromuzla her ihtiyaca uygun projeler geliştiriyoruz.',
+          'BGS, müşterilerine güvenilir ve etkili çözümler sunmayı amaçlayan bir yazılım ajansıdır. Uzman kadromuzla her ihtiyaca uygun projeler geliştiriyoruz.',
       },
       {
         title: 'Başlamak için teknik bilgi gerekli mi?',
@@ -384,7 +322,7 @@ const metadata = {
         description: 'Evet, tüm bileşenler mobil cihazlarla uyumludur ve responsive olarak tasarlanmıştır.',
       },
       {
-        title: 'EmaDocs hangi şehirlerde hizmet veriyor?',
+        title: 'BGS hangi şehirlerde hizmet veriyor?',
         description:
           'Sakarya, İstanbul, Kayseri başta olmak üzere Türkiye’nin her yerinde müşterilerimize ulaşmaktayız.',
       },
@@ -398,7 +336,7 @@ const metadata = {
   <!-- Stats Widget ****************** -->
 
   <Stats
-    title="EmaDocs ile Başarıya Ulaşın"
+    title="BGS ile Başarıya Ulaşın"
     stats={[
       { title: 'Mutlu Müşteri', amount: 102 },
       { title: 'Tamamlanan Proje', amount: 218 },
