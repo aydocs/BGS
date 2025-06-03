@@ -13,6 +13,8 @@ import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 import eysisImage from 'src/assets/images/eysis.jpg';
 import matrisImage from 'src/assets/images/matris.jpg';
+import eioGuardianImage from 'src/assets/images/eio-guardian.jpg';
+import bgsLogoImage from 'src/assets/images/bgs-logo.jpg';
 
 const metadata = {
   title:
@@ -177,6 +179,7 @@ image={{
 }}
 
 
+
 />
 
 
@@ -184,9 +187,11 @@ image={{
 <Content
   isAfterContent
   items={[
-        {
-      title: 'Yeni Nesil Ön Muhasebe Programı',
-      description: 'Küçük ve orta ölçekli işletmeler için kullanıcı dostu, modüler ve bulut tabanlı finansal çözüm.',
+    {
+      title: 'Matris – Finans ve Muhasebe',
+      description: `Fatura, gelir-gider, e-fatura, stok, sipariş ve kasa takibini kolayca yapabileceğiniz, bulut tabanlı ve güvenli ön muhasebe programı. Hızlı, ekonomik ve kullanıcı dostudur.
+
+İletişime geçin, hemen kullanmaya başlayın!`,
     },
     {
       title: 'Fatura & Gelir-Gider Takibi',
@@ -208,80 +213,79 @@ image={{
   image={{
     src: matrisImage,
     alt: 'Muhasebe Programı Görseli',
+    className: 'block w-full h-auto',
   }}
->
-</Content>
+/>
+
 
 <Content
   isReversed
   isAfterContent
   items={[
-    {
-      title: 'Artan Kullanıcı Etkileşimi',
-      description:
-        'Etkileşimli öğeler, sezgisel navigasyon ve görsel açıdan çekici düzenlerle ziyaretçilerinizi uzun süre sitenizde tutun.',
-    },
-    {
-      title: 'Sürekli Gelişim',
-      description:
-        'Web sitenizin en güncel trendler ve teknolojilerle uyumlu kalması için düzenli güncellemeler sunar.',
-    },
-    {
-      title: 'Zaman ve Kaynak Tasarrufu',
-      description:
-        'Web sitesini sıfırdan oluşturmanın zahmetinden kurtulun, Eysis ile dijital varlığınızı hızla başlatın.',
-    },
-    {
-      title: 'Topluluk Desteği',
-      description:
-        'Eysis topluluğuna katılarak bilgi, kaynak ve destek alabilir, gelişim yolculuğunuzda yalnız kalmazsınız.',
-    },
+{
+  title: 'Eio Guardian ile Güvenlik',
+  description: `Windows tabanlı cihazlarınızı (bilgisayar, akıllı tahta, tablet) yetkisiz erişimlerden korur. Smart Card Controller (SCC) ile cihazı kartlara göre kişiselleştirir. 
+Çevrimdışı lisanslama sayesinde yerel ağlarda güvenle çalışır. Lisans anahtarları sadece ilgili cihazda kullanılabilir ve sınırsız tekrar kullanılabilir.`,
+},
+{
+  title: 'Kişiselleştirilmiş Erişim Kontrolü',
+  description:
+    'Smart Card Controller ile kullanıcı kartları cihaz bazında tanımlanır, böylece yalnızca yetkili kişiler erişebilir.',
+},
+{
+  title: 'Çevrimdışı Lisanslama Güvencesi',
+  description:
+    'İnternet bağlantısı gerektirmeden, kapalı intranetlerde bile lisanslama yapılabilir, güvenliğinizi sürekli sağlar.',
+},
+{
+  title: 'Kolay Yönetim ve İzleme',
+  description:
+    'Yetki ve kullanıcı yönetimi basit arayüzlerle hızlıca yapılabilir, cihaz kullanım kayıtları takip edilebilir.',
+},
+
   ]}
   image={{
-    src: eysisImage,
-    alt: 'Astronotlar Görseli',
+    src: eioGuardianImage,
+    alt: 'Muhasebe Programı Görseli',
+    className: 'block w-full h-auto',
   }}
->
-  <Fragment slot="content">Büyüme ve başarı için tasarlandı.</Fragment>
-
-  <Fragment slot="bg">
-    <div className="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-  </Fragment>
-</Content>
+/>
 
 <Steps
-  title="Hayalinizdeki web sitesini Eysis ile kısa sürede hayata geçirin."
+  title="Hayalinizdeki web sitesini Eysis ile kolayca hayata geçirin."
   items={[
     {
       title: 'Adım 1: <span class="font-medium">İletişime Geçin</span>',
       description:
-        'Bize ulaşarak projenizi anlatın. İhtiyacınıza uygun çözümleri birlikte planlayalım ve ilk adımı atalım.',
+        'Projenizi bize anlatın, ihtiyaçlarınıza en uygun çözümleri birlikte planlayalım.',
       icon: 'tabler:message-2',
     },
     {
       title: 'Adım 2: <span class="font-medium">İçeriğinizi Paylaşın</span>',
       description:
-        'Markanızı yansıtan görseller, metinler ve içerikleri bize iletin. Dijital kimliğinizin temellerini birlikte atalım.',
+        'Markanıza ait görselleri ve metinleri iletin; dijital kimliğinizi şekillendirelim.',
       icon: 'tabler:photo-edit',
     },
     {
       title: 'Adım 3: <span class="font-medium">Tasarımı Özelleştirin</span>',
       description:
-        'Renklerden yazı tipine, sayfa yapısından kullanıcı deneyimine kadar tüm detayları isteğinize göre tasarlıyoruz.',
+        'Renk, yazı tipi ve kullanıcı deneyimini isteğinize göre kişiselleştirelim.',
       icon: 'tabler:brush',
     },
     {
-      title: 'Hazır!',
+      title: 'Adım 4: <span class="font-medium">Onay ve Yayın</span>',
       description:
-        'Test ve onay süreci sonrası web siteniz yayında. Artık hedef kitlenizle profesyonel bir dijital ortamda buluşabilirsiniz.',
+        'Test sonrası siteniz yayına alınır, hedef kitlenizle profesyonel ortamda buluşursunuz.',
       icon: 'tabler:check',
     },
   ]}
   image={{
-    src: eysisImage,
-    alt: 'Web Tasarım Süreci Görseli',
+    src: bgsLogoImage,
+    alt: 'Web Tasarım Süreci',
+        className: 'block w-full h-auto',
   }}
 />
+
 
 
 
