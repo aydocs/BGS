@@ -3,12 +3,12 @@
   "compilerOptions": {
     "strictNullChecks": true,
     "allowJs": true,
-    "baseUrl": ".",
+    "baseUrl": "",
     "paths": {
       "~/*": ["src/*"]
     },
     "lib": ["DOM", "ESNext"]
   },
   "include": [".astro/types.d.ts", "**/*"],
-  "exclude": ["dist/"]
+  "exclude": ["dist"]
 }
